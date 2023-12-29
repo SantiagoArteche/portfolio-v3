@@ -1,12 +1,21 @@
-import { Box } from "@mui/material";
 import "./App.css";
-import AboutMe from "./components/aboutMe/AboutMe";
+
+import { Grid } from "./components/grid/Grid";
+import { DarkModeContextProvider } from "./Context/DarkModeContext";
+import { LanguageContextProvider } from "./Context/LanguageContext";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <Box>
-      <AboutMe />
-    </Box>
+    <BrowserRouter>
+      <DarkModeContextProvider>
+        <LanguageContextProvider>
+          <Routes>
+            <Route path="/" element={<Grid />} />
+          </Routes>
+        </LanguageContextProvider>
+      </DarkModeContextProvider>
+    </BrowserRouter>
   );
 }
 
