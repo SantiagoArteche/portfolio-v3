@@ -8,12 +8,26 @@ export const AboutMe = ({ language }) => {
         bgcolor: "#161c908a",
         display: "flex",
         alignItems: "end",
+        textAlign: { sm: "center", md: "start" },
         borderRadius: 3,
         padding: 2,
       }}
     >
       <Box sx={{ color: "white" }}>
-        <Box component={"h1"}>
+        <Box
+          component={"h1"}
+          sx={{
+            textAlign: { xs: "center", md: "start" },
+            fontSize: {
+              xs: "1.5rem",
+              sm: "2.5rem",
+              md: "3rem",
+              lg: "4rem",
+              xl: "4.3rem",
+            },
+            marginBottom: { xs: 3.8, md: 0, sm: 3 },
+          }}
+        >
           {language === "ES"
             ? "Hola Soy Santiago"
             : "Hello my name is Santiago"}
@@ -21,8 +35,20 @@ export const AboutMe = ({ language }) => {
         <Box
           component={"p"}
           sx={{
-            fontSize: "1.75rem",
-            marginRight: "19.5rem",
+            fontSize: {
+              xs: "0.7rem",
+              sm: "1.2rem",
+              md: "1.6rem",
+              lg: "1.95rem",
+              xl: "2.1rem",
+            },
+            marginRight: {
+              xs: 0,
+              sm: "1rem",
+              md: "13rem",
+              lg: "18rem",
+              xl: "19.5rem",
+            },
             marginTop: 1,
           }}
         >

@@ -1,23 +1,19 @@
 import { Box } from "@mui/material";
+import { useEffect, useState } from "react";
+import { AgePresentational } from "./AgePresentational";
 export const Age = ({ language }) => {
-  return (
-    <>
-      <Box
-        sx={{
-          gridArea: "age",
-          bgcolor: "#7b94fa8a",
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
-          borderRadius: 3,
-        }}
-      >
-        <Box fontSize={"8rem"}>25</Box>
-        <Box fontSize={"1.5rem"} fontWeight={"bold"}>
-          {language === "ES" ? "Años" : "Years Old"}
-        </Box>
-      </Box>
-    </>
-  );
+  let [age, setAge] = useState(14);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (age < 25) {
+        age++;
+        setAge(age);
+      } else {
+        clearInterval(interval);
+      }
+    }, 150);
+  }, [age]);
+
+  return <AgePresentational Box={Box} language={language} age={age} />;
 };
