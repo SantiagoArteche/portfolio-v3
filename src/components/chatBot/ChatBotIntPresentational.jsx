@@ -13,7 +13,6 @@ export const ChatBotIntPresentational = ({
   Button,
   SendIcon,
 }) => {
-  const windowHeight = window.innerHeight;
   const windowWidth = window.innerWidth;
   return (
     <Box
@@ -23,7 +22,7 @@ export const ChatBotIntPresentational = ({
         position: "fixed",
         display: chatOn,
         backgroundColor: "black",
-        height: "85vh",
+
         width: { xs: "70%", sm: "55%", lg: "48%", xl: "39%" },
         borderRadius: 3,
       }}
@@ -74,12 +73,9 @@ export const ChatBotIntPresentational = ({
       </Box>
       <Box
         sx={{
-          height:
-            windowHeight >= 900
-              ? { xs: "80%", sm: "78%", md: "75%" }
-              : { xs: "72%", sm: "78%", md: "75%" },
           overflowY: "auto",
           overflowX: "hidden",
+          height: "65vh",
         }}
       >
         <Box
@@ -88,6 +84,7 @@ export const ChatBotIntPresentational = ({
             fontSize: { xs: "0.8rem", sm: "0.9rem", md: "1rem", lg: "1.2rem" },
             display: "flex",
             justifyContent: "start",
+            backgroundColor: "black",
           }}
         >
           <Box
@@ -177,6 +174,7 @@ export const ChatBotIntPresentational = ({
           justifyContent: "space-between",
           alignItems: "center",
           height: 65,
+          marginBottom: 3,
         }}
       >
         <Input
@@ -186,6 +184,7 @@ export const ChatBotIntPresentational = ({
           sx={{
             color: "white",
             margin: 2,
+
             fontSize: { xs: "0.8rem", sm: "0.9rem", md: "1rem", lg: "1.2rem" },
             width: "100%",
             ":before": { border: 0 },
