@@ -13,6 +13,8 @@ export const ChatBotIntPresentational = ({
   Button,
   SendIcon,
 }) => {
+  const windowHeight = window.innerHeight;
+  const windowWidth = window.innerWidth;
   return (
     <Box
       sx={{
@@ -40,7 +42,10 @@ export const ChatBotIntPresentational = ({
         <Box
           sx={{
             color: "white",
-            fontSize: { xs: "1.6rem", sm: "2.4rem", md: "2.7rem", lg: "3rem" },
+            fontSize:
+              windowWidth > 360
+                ? { xs: "1.6rem", sm: "2.4rem", md: "2.7rem", lg: "3rem" }
+                : { xs: "1.3rem", sm: "2.4rem", md: "2.7rem", lg: "3rem" },
           }}
         >
           Santiago Bot
@@ -69,7 +74,10 @@ export const ChatBotIntPresentational = ({
       </Box>
       <Box
         sx={{
-          height: 595,
+          height:
+            windowHeight >= 900
+              ? { xs: "80%", sm: "78%", md: "75%" }
+              : { xs: "72%", sm: "78%", md: "75%" },
           overflowY: "auto",
           overflowX: "hidden",
         }}
@@ -205,7 +213,7 @@ export const ChatBotIntPresentational = ({
           }}
           type="submit"
         >
-          <Box sx={{ width: 30 }}>
+          <Box sx={{ width: { xs: 20, md: 30 } }}>
             <SendIcon />
           </Box>
         </Button>

@@ -2,9 +2,10 @@ export const WeatherPresentational = ({
   weather,
   isNight,
   Box,
-  minutes,
+ 
   hour,
   darkMode,
+  currentTime,
 }) => {
   return (
     <Box
@@ -70,8 +71,8 @@ export const WeatherPresentational = ({
               },
             }}
           >
-            {`${hour}:${minutes} `}
-            {hour >= "12" ? "PM" : "AM"}
+            {currentTime}
+            {hour >= "12" ? " PM" : " AM"}
           </Box>
           <Box
             sx={{

@@ -33,8 +33,8 @@ export const Grid = () => {
       <Box
         sx={{
           backgroundImage: `linear-gradient(to bottom, rgba(3, 3, 3, 0.62), rgba(3, 3, 3, 0.62)), url(/img/noisy.gif);`,
-          height: "100vh",
-          width: "100vw",
+          height: "130vh",
+          width: "130vw",
           position: "fixed",
           top: "0%",
           left: "0%",
@@ -46,8 +46,8 @@ export const Grid = () => {
       <Box
         sx={{
           backgroundColor: darkMode,
-          height: "100vh",
-          width: "100vw",
+          height: "130vh",
+          width: "130vw",
           top: "0%",
           left: "0%",
           position: "fixed",

@@ -3,27 +3,27 @@ import { useState, useEffect, useContext } from "react";
 import { WeatherPresentational } from "./WeatherPresentational";
 import { DarkModeContext } from "../../Context/DarkModeContext";
 export const Weather = () => {
-  let time = new Date().toLocaleTimeString().toString();
+  let time = new Date();
+  let hour = time.getHours();
+  let minutes = time.getMinutes();
+  if (hour < 10) hour = `0${hour}`;
+  if (minutes < 10) minutes = `0${minutes}`;
+  const timer = `${hour}:${minutes}`;
   const [weather, setWeather] = useState([]);
-  const [currentTime, setCurrentTime] = useState(time);
+  const [currentTime, setCurrentTime] = useState(timer);
   const { darkMode } = useContext(DarkModeContext);
 
   const updateTime = () => {
-    time = new Date().toLocaleTimeString().toString();
-    setCurrentTime(time);
+    let time = new Date();
+    let hour = time.getHours();
+    let minutes = time.getMinutes();
+    setCurrentTime(
+      `${hour < 10 ? `0${hour}` : hour}:${
+        minutes < 10 ? `0${minutes}` : minutes
+      }`
+    );
   };
   setInterval(updateTime, 15000);
-
-  let hour =
-    currentTime.length === 7
-      ? currentTime[0]
-      : `${currentTime[0]}${currentTime[1]}`;
-  let minutes = `${currentTime[3]}${currentTime[4]}`;
-
-  if (hour < 10 && currentTime.length === 7) {
-    hour = `0${hour}`;
-    minutes = `${currentTime[2]}${currentTime[3]}`;
-  }
 
   const night = ["20", "21", "22", "23", "00", "01", "02", "03", "04", "05"];
 
@@ -48,6 +48,7 @@ export const Weather = () => {
       weather={weather}
       hour={hour}
       darkMode={darkMode}
+      currentTime={currentTime}
     />
   );
 };

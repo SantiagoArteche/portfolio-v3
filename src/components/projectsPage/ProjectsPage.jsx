@@ -86,7 +86,7 @@ export const ProjectsPage = () => {
             </Link>
             <Box
               sx={{
-                marginLeft: 3,
+                marginLeft: { xs: 2, sm: 3 },
                 fontSize: {
                   xs: "3rem",
                   sm: "3.5rem",

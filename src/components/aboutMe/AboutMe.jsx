@@ -19,18 +19,15 @@ export const AboutMe = ({ language }) => {
           sx={{
             textAlign: { xs: "center", md: "start" },
             fontSize: {
-              xs: "1.5rem",
+              xs: "1.9rem",
               sm: "2.5rem",
               md: "3rem",
-              lg: "4rem",
-              xl: "4.3rem",
+              lg: "3.6rem",
             },
-            marginBottom: { xs: 3.8, md: 0, sm: 3 },
+            marginBottom: { xs: 3.2, sm: 2, md: 0 },
           }}
         >
-          {language === "ES"
-            ? "Hola Soy Santiago"
-            : "Hello my name is Santiago"}
+          {language === "ES" ? "Hola, Soy Santiago " : "Hello, I'm Santiago "}
         </Box>
         <Box
           component={"p"}
@@ -39,15 +36,14 @@ export const AboutMe = ({ language }) => {
               xs: "0.7rem",
               sm: "1.2rem",
               md: "1.6rem",
-              lg: "1.95rem",
-              xl: "2.1rem",
+              lg: "1.8rem",
             },
             marginRight: {
               xs: 0,
               sm: "1rem",
               md: "13rem",
               lg: "18rem",
-              xl: "19.5rem",
+              xl: "25.5rem",
             },
             marginTop: 1,
           }}
