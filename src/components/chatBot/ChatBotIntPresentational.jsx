@@ -12,7 +12,6 @@ export const ChatBotIntPresentational = ({
   thinking,
   Button,
   SendIcon,
-
 }) => {
   return (
     <Box
@@ -23,7 +22,7 @@ export const ChatBotIntPresentational = ({
         display: chatOn,
         backgroundColor: "black",
         height: "85vh",
-        width: { xs: "65%", sm: "55%", lg: "48%", xl: "37%" },
+        width: { xs: "70%", sm: "55%", lg: "48%", xl: "39%" },
         borderRadius: 3,
       }}
       component={"form"}
@@ -38,14 +37,21 @@ export const ChatBotIntPresentational = ({
           padding: 3,
         }}
       >
-        <Box sx={{ color: "white", fontSize: "3rem" }}>Santiago Bot</Box>
+        <Box
+          sx={{
+            color: "white",
+            fontSize: { xs: "1.6rem", sm: "2.4rem", md: "2.7rem", lg: "3rem" },
+          }}
+        >
+          Santiago Bot
+        </Box>
         <Box
           sx={{
             color: "black",
             backgroundColor: "#5f54c78a",
-            width: 45,
+            width: { xs: "1.6rem", sm: "2.4rem", md: "2.4rem", lg: "2.5rem" },
             borderRadius: 40,
-            height: 45,
+            height: { xs: "1.6rem", sm: "2.4rem", md: "2.4rem", lg: "2.5rem" },
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
@@ -53,8 +59,8 @@ export const ChatBotIntPresentational = ({
         >
           <HighlightOffIcon
             sx={{
-              width: "3.5rem",
-              height: "3.5rem",
+              width: { xs: "2.3rem", sm: "2.9rem", md: "3rem", lg: "3.5rem" },
+              height: { xs: "2.3rem", sm: "2.9rem", md: "3rem", lg: "3.5rem" },
               cursor: "pointer",
             }}
             onClick={changeChatState}
@@ -71,7 +77,7 @@ export const ChatBotIntPresentational = ({
         <Box
           sx={{
             color: "white",
-            fontSize: "1.2rem",
+            fontSize: { xs: "0.8rem", sm: "0.9rem", md: "1rem", lg: "1.2rem" },
             display: "flex",
             justifyContent: "start",
           }}
@@ -80,7 +86,7 @@ export const ChatBotIntPresentational = ({
             sx={{
               backgroundColor: "violet",
               width: "max-content",
-              maxWidth: "430px",
+              maxWidth: { xs: "250px", md: "430px" },
               margin: 3,
               padding: 3,
               borderRadius: 2,
@@ -92,7 +98,7 @@ export const ChatBotIntPresentational = ({
         <Box
           sx={{
             color: "white",
-            fontSize: "1.2rem",
+            fontSize: { xs: "0.8rem", sm: "0.9rem", md: "1rem", lg: "1.2rem" },
             display: "flex",
             justifyContent: "end",
           }}
@@ -115,7 +121,7 @@ export const ChatBotIntPresentational = ({
         <Box
           sx={{
             color: "white",
-            fontSize: "1.2rem",
+            fontSize: { xs: "0.8rem", sm: "0.9rem", md: "1rem", lg: "1.2rem" },
             display: "flex",
             justifyContent: "start",
           }}
@@ -125,7 +131,7 @@ export const ChatBotIntPresentational = ({
               sx={{
                 backgroundColor: "violet",
                 width: "max-content",
-                maxWidth: "430px",
+                maxWidth: { xs: "250px", md: "430px" },
                 margin: 3,
                 padding: 3,
                 borderRadius: 2,
@@ -172,7 +178,7 @@ export const ChatBotIntPresentational = ({
           sx={{
             color: "white",
             margin: 2,
-            fontSize: "1.1rem",
+            fontSize: { xs: "0.8rem", sm: "0.9rem", md: "1rem", lg: "1.2rem" },
             width: "100%",
             ":before": { border: 0 },
             "::before": { border: 0, content: "none" },
@@ -183,7 +189,7 @@ export const ChatBotIntPresentational = ({
             content: "none",
           }}
         />
-          
+
         <Button
           sx={{
             paddingX: 4,

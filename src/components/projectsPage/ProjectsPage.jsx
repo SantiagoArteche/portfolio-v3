@@ -207,7 +207,7 @@ export const ProjectsPage = () => {
             </Box>
             <Box
               component={"a"}
-              href="https://asociacion-suipacha.vercel.app/"
+              href=""
               sx={{
                 gridArea: "asociacion",
                 background:
