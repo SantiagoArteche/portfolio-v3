@@ -1,14 +1,17 @@
 import { Box } from "@mui/material";
 import { FaExternalLinkAlt } from "react-icons/fa";
-export const Projects = ({ language }) => {
+import { Link } from "react-router-dom";
+export const ProjectsGrid = ({ language }) => {
   return (
     <Box
-      component={"a"}
+      component={Link}
+      to="/projects"
       sx={{
         backgroundImage: `url("/img/projectsGiph.gif")`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundPosition: "center",
+        textDecoration: "none",
         borderRadius: 3,
         gridArea: "projects",
         color: "white",
@@ -32,7 +35,13 @@ export const Projects = ({ language }) => {
       }}
     >
       <Box>
-        <Box sx={{ marginTop: 1, marginLeft: 3, textAlign: "center" }}>
+        <Box
+          sx={{
+            marginTop: 1,
+            marginLeft: 3,
+            textAlign: "center",
+          }}
+        >
           {language === "ES" ? "Proyectos" : "Projects"}
         </Box>
         <Box

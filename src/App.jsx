@@ -1,10 +1,9 @@
 import "./App.css";
-
-import { Grid } from "./components/grid/Grid";
 import { ChatBotContextProvider } from "./Context/ChatBotContext";
 import { DarkModeContextProvider } from "./Context/DarkModeContext";
 import { LanguageContextProvider } from "./Context/LanguageContext";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
+import { routes } from "./menuRoutes";
 
 function App() {
   return (
@@ -13,7 +12,9 @@ function App() {
         <DarkModeContextProvider>
           <LanguageContextProvider>
             <Routes>
-              <Route path="/" element={<Grid />} />
+              {routes.map(({ id, path, Element }) => (
+                <Route key={id} path={path} element={<Element />} />
+              ))}
             </Routes>
           </LanguageContextProvider>
         </DarkModeContextProvider>

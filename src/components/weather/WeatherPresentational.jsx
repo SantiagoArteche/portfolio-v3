@@ -54,7 +54,11 @@ export const WeatherPresentational = ({
                   xl: "4rem",
                 },
               }}
-            >{`${(weather?.main?.temp - 273.15).toFixed(0)}°`}</Box>
+            >
+              {weather?.main?.temp
+                ? `${(weather.main.temp - 273.15).toFixed(0)}°`
+                : "..."}
+            </Box>
           </Box>
           <Box
             sx={{
