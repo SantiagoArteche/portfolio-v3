@@ -19,12 +19,12 @@ export const AboutMe = ({ language }) => {
           sx={{
             textAlign: { xs: "center", md: "start" },
             fontSize: {
-              xs: "1.9rem",
+              xs: "1.5rem",
               sm: "2.5rem",
               md: "3rem",
               lg: "3.6rem",
             },
-            marginBottom: { xs: 3.2, sm: 2, md: 0 },
+            marginBottom: { xs: 2.6, sm: 2, md: 0 },
           }}
         >
           {language === "ES" ? "Hola, Soy Santiago " : "Hello, I'm Santiago "}
