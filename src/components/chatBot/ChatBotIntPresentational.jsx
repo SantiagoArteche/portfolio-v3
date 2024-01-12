@@ -12,6 +12,7 @@ export const ChatBotIntPresentational = ({
   thinking,
   Button,
   SendIcon,
+  language,
 }) => {
   const windowWidth = window.innerWidth;
   return (
@@ -97,7 +98,9 @@ export const ChatBotIntPresentational = ({
               borderRadius: 2,
             }}
           >
-            Hola, soy el clon de Santiago, que te gustaria saber ?
+            {language === "ES"
+              ? "Hola, soy el bot de Santiago, que te gustaria saber ?"
+              : "Hello, I'm Santiago bot, what do you want to know ?"}
           </Box>
         </Box>
         <Box
@@ -157,7 +160,7 @@ export const ChatBotIntPresentational = ({
                   borderRadius: 2,
                 }}
               >
-                Thinking...
+                {language === "ES" ? "Pensando..." : "Thinking..."}
               </Box>
             )
           )}
@@ -180,7 +183,11 @@ export const ChatBotIntPresentational = ({
         <Input
           name="prompt"
           onChange={handleChange}
-          placeholder="Inserte su pregunta..."
+          placeholder={
+            language === "ES"
+              ? "Inserte su pregunta..."
+              : "Insert your question..."
+          }
           sx={{
             color: "white",
             margin: 2,

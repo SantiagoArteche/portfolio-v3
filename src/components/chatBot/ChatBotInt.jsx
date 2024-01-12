@@ -5,6 +5,7 @@ import { useFormik } from "formik";
 import { useState, useContext, useEffect } from "react";
 import { ChatBotContext } from "../../Context/ChatBotContext";
 import { ChatBotIntPresentational } from "./ChatBotIntPresentational";
+import { LanguageContext } from "../../Context/LanguageContext";
 
 export const ChatBotInt = () => {
   const [message, setMessage] = useState("");
@@ -12,6 +13,7 @@ export const ChatBotInt = () => {
   const [thinking, setThinking] = useState(false);
   const [clearInput, setClearInput] = useState("asdas");
   const { changeChatState, chatOn } = useContext(ChatBotContext);
+  const { language } = useContext(LanguageContext);
 
   useEffect(() => {
     if (clearInput?.length !== 0) {
@@ -69,6 +71,7 @@ export const ChatBotInt = () => {
       handleChange={handleChange}
       handleSubmit={handleSubmit}
       clearInput={clearInput}
+      language={language}
     />
   );
 };
