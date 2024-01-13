@@ -2,7 +2,6 @@ export const WeatherPresentational = ({
   weather,
   isNight,
   Box,
- 
   hour,
   darkMode,
   currentTime,

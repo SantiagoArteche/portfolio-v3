@@ -4,8 +4,8 @@ import { WeatherPresentational } from "./WeatherPresentational";
 import { DarkModeContext } from "../../Context/DarkModeContext";
 export const Weather = () => {
   let time = new Date();
-  let hour = time.getHours();
-  let minutes = time.getMinutes();
+  let hour = time.getHours().toString();
+  let minutes = time.getMinutes().toString();
   if (hour < 10) hour = `0${hour}`;
   if (minutes < 10) minutes = `0${minutes}`;
   const timer = `${hour}:${minutes}`;
@@ -15,8 +15,8 @@ export const Weather = () => {
 
   const updateTime = () => {
     let time = new Date();
-    let hour = time.getHours();
-    let minutes = time.getMinutes();
+    let hour = time.getHours().toString();
+    let minutes = time.getMinutes().toString();
     setCurrentTime(
       `${hour < 10 ? `0${hour}` : hour}:${
         minutes < 10 ? `0${minutes}` : minutes
@@ -42,7 +42,6 @@ export const Weather = () => {
 
   return (
     <WeatherPresentational
-      minutes={minutes}
       Box={Box}
       isNight={isNight}
       weather={weather}
