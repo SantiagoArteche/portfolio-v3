@@ -35,7 +35,7 @@ export const Certificate = ({ language }) => {
           width: { sm: "180px", md: "100%" },
         }}
       >
-        {language === "ES" ? "Desarrollador FullStack" : "FullStack Developer"}
+        {language === "ES" ? "Desarrollador FrontEnd" : "FrontEnd Developer"}
       </Box>
       <Box
         sx={{
