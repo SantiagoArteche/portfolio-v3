@@ -23,6 +23,7 @@ import "animate.css";
 export const Grid = () => {
   const { language } = useContext(LanguageContext);
   const { darkMode } = useContext(DarkModeContext);
+  document.title = language === "ES" ? "Portafolio" : "Portfolio";
 
   useEffect(() => {
     darkMode;

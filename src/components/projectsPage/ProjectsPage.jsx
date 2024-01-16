@@ -7,6 +7,8 @@ import { Link } from "react-router-dom";
 export const ProjectsPage = () => {
   const { darkMode } = useContext(DarkModeContext);
   const { language } = useContext(LanguageContext);
+  document.title =
+    language === "ES" ? "Portafolio - Proyectos" : "Portfolio - Projects";
 
   return (
     <>
@@ -182,9 +184,7 @@ export const ProjectsPage = () => {
                     },
                   }}
                 >
-                  {language === "ES"
-                    ? "Tecnologías Utilizadas"
-                    : "Technologies"}
+                  {language === "ES" ? "Tecnologías" : "Technologies"}
                 </Box>
                 <Box
                   sx={{
