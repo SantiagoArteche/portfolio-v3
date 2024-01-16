@@ -182,7 +182,9 @@ export const ProjectsPage = () => {
                     },
                   }}
                 >
-                  {language === "ES" ? "Tecnologías Utilizadas" : "Tech"}
+                  {language === "ES"
+                    ? "Tecnologías Utilizadas"
+                    : "Technologies"}
                 </Box>
                 <Box
                   sx={{
@@ -207,7 +209,7 @@ export const ProjectsPage = () => {
             </Box>
             <Box
               component={"a"}
-              href=""
+              href="https://asociacion.vercel.app/"
               sx={{
                 gridArea: "asociacion",
                 background:
@@ -236,7 +238,6 @@ export const ProjectsPage = () => {
                   color: "white",
                   padding: 2,
                   textAlign: "center",
-
                   display: "none",
                   justifyContent: "center",
                   alignItems: "center",
@@ -253,9 +254,12 @@ export const ProjectsPage = () => {
                       md: "2.5rem",
                       lg: "2.8rem",
                     },
+                    marginLeft: 1,
                   }}
                 >
-                  {language === "ES" ? "Tecnologías Utilizadas" : "Tech"}
+                  {language === "ES"
+                    ? "Tecnologías Utilizadas"
+                    : "Technologies"}
                 </Box>
                 <Box
                   sx={{
@@ -266,14 +270,40 @@ export const ProjectsPage = () => {
                       lg: "1.8rem",
                     },
                     display: "flex",
-                    flexDirection: "column",
+                    flexDirection: "row",
+                    justifyContent: "center",
+                    alignItems: "center",
                     gap: 2,
                   }}
                 >
-                  <Box>ReactJS</Box>
-                  <Box>MaterialUI</Box>
-                  <Box>Formik</Box>
-                  <Box>Yup</Box>
+                  <Box
+                    sx={{
+                      display: "flex",
+                      flexDirection: "column",
+                      justifyContent: "center",
+                      alignItems: "center",
+                      gap: 3,
+                    }}
+                  >
+                    <Box>ReactJS</Box>
+                    <Box>MaterialUI</Box>
+                    <Box>React Router Dom</Box>
+                    <Box>Formik</Box>
+                  </Box>
+                  <Box
+                    sx={{
+                      display: "flex",
+                      flexDirection: "column",
+                      justifyContent: "center",
+                      alignItems: "center",
+                      gap: 3,
+                    }}
+                  >
+                    <Box>Yup</Box>
+                    <Box>NodeJS</Box>
+                    <Box>Express</Box>
+                    <Box>MongoDB</Box>
+                  </Box>
                 </Box>
               </Box>
             </Box>
@@ -326,7 +356,9 @@ export const ProjectsPage = () => {
                     },
                   }}
                 >
-                  {language === "ES" ? "Tecnologías Utilizadas" : "Tech"}
+                  {language === "ES"
+                    ? "Tecnologías Utilizadas"
+                    : "Technologies"}
                 </Box>
                 <Box
                   sx={{
@@ -397,7 +429,9 @@ export const ProjectsPage = () => {
                     },
                   }}
                 >
-                  {language === "ES" ? "Tecnologías Utilizadas" : "Tech"}
+                  {language === "ES"
+                    ? "Tecnologías Utilizadas"
+                    : "Technologies"}
                 </Box>
                 <Box
                   sx={{
@@ -472,7 +506,9 @@ export const ProjectsPage = () => {
                     },
                   }}
                 >
-                  {language === "ES" ? "Tecnologías Utilizadas" : "Tech"}
+                  {language === "ES"
+                    ? "Tecnologías Utilizadas"
+                    : "Technologies"}
                 </Box>
                 <Box
                   sx={{

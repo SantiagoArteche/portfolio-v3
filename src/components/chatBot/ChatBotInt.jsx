@@ -2,7 +2,7 @@ import { Box, Button, Input } from "@mui/material";
 import HighlightOffIcon from "@mui/icons-material/HighlightOff";
 import SendIcon from "@mui/icons-material/Send";
 import { useFormik } from "formik";
-import { useState, useContext, useEffect } from "react";
+import { useState, useContext } from "react";
 import { ChatBotContext } from "../../Context/ChatBotContext";
 import { ChatBotIntPresentational } from "./ChatBotIntPresentational";
 import { LanguageContext } from "../../Context/LanguageContext";
@@ -11,16 +11,9 @@ export const ChatBotInt = () => {
   const [message, setMessage] = useState("");
   const [messageSend, setMessageSend] = useState(null);
   const [thinking, setThinking] = useState(false);
-  const [clearInput, setClearInput] = useState("asdas");
   const { changeChatState, chatOn } = useContext(ChatBotContext);
   const { language } = useContext(LanguageContext);
 
-  useEffect(() => {
-    if (clearInput?.length !== 0) {
-      setClearInput("3");
-    }
-  }, [clearInput]);
-  console.log(clearInput.length);
   const { handleSubmit, handleChange } = useFormik({
     initialValues: {
       prompt: "",
@@ -70,7 +63,6 @@ export const ChatBotInt = () => {
       chatOn={chatOn}
       handleChange={handleChange}
       handleSubmit={handleSubmit}
-      clearInput={clearInput}
       language={language}
     />
   );
