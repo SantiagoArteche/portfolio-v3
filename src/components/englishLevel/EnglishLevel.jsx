@@ -27,7 +27,14 @@ export const EnglishLevel = ({ language }) => {
         transition: "0.5s",
       }}
     >
-      <Box sx={{ position: "absolute" }}>
+      <Box
+        sx={{
+          position: "absolute",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+        }}
+      >
         <Box
           sx={{
             fontSize: {

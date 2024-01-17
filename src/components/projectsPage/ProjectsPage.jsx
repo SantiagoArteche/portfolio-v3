@@ -182,7 +182,7 @@ export const ProjectsPage = () => {
                       md: "2.5rem",
                       lg: "2.8rem",
                     },
-                    textDecoration: "underline 4px solid black",
+                    textDecoration: "underline 5px solid black",
                   }}
                 >
                   {language === "ES" ? "Tecnologías" : "Technologies"}
@@ -256,7 +256,7 @@ export const ProjectsPage = () => {
                       lg: "2.8rem",
                     },
                     marginLeft: 1,
-                    textDecoration: "underline 4px solid black",
+                    textDecoration: "underline 5px solid black",
                   }}
                 >
                   {language === "ES" ? "Tecnologías" : "Technologies"}
@@ -354,7 +354,7 @@ export const ProjectsPage = () => {
                       md: "2.5rem",
                       lg: "2.8rem",
                     },
-                    textDecoration: "underline 4px solid black",
+                    textDecoration: "underline 5px solid black",
                   }}
                 >
                   {language === "ES" ? "Tecnologías" : "Technologies"}
@@ -426,7 +426,7 @@ export const ProjectsPage = () => {
                       md: "2.5rem",
                       lg: "2.8rem",
                     },
-                    textDecoration: "underline 4px solid black",
+                    textDecoration: "underline 5px solid black",
                   }}
                 >
                   {language === "ES" ? "Tecnologías" : "Technologies"}
@@ -503,7 +503,7 @@ export const ProjectsPage = () => {
                       lg: "2.8rem",
                     },
 
-                    textDecoration: "underline 4px solid black",
+                    textDecoration: "underline 5px solid black",
                   }}
                 >
                   {language === "ES" ? "Tecnologías" : "Technologies"}
