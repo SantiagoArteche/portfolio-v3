@@ -6,8 +6,6 @@
 
 # Librerias Utilizadas
 
-### -Material UI
-
 ### -React Router Dom
 
 ### -MaterialUI
