@@ -137,6 +137,7 @@ export const ProjectsPage = () => {
             <Box
               component={"a"}
               href="https://ecommerce-react-js-arteche.vercel.app/"
+              target="blank"
               sx={{
                 gridArea: "ecomReact",
                 background:
@@ -182,7 +183,10 @@ export const ProjectsPage = () => {
                       md: "2.5rem",
                       lg: "2.8rem",
                     },
-                    textDecoration: "underline 5px solid black",
+                    textDecoration:
+                      darkMode === "black"
+                        ? "underline 5px solid black"
+                        : "underline 5px solid white",
                   }}
                 >
                   {language === "ES" ? "Tecnologías" : "Technologies"}
@@ -211,6 +215,7 @@ export const ProjectsPage = () => {
             <Box
               component={"a"}
               href="https://asociacion.vercel.app/"
+              target="blank"
               sx={{
                 gridArea: "asociacion",
                 background:
@@ -256,7 +261,10 @@ export const ProjectsPage = () => {
                       lg: "2.8rem",
                     },
                     marginLeft: 1,
-                    textDecoration: "underline 5px solid black",
+                    textDecoration:
+                      darkMode === "black"
+                        ? "underline 5px solid black"
+                        : "underline 5px solid white",
                   }}
                 >
                   {language === "ES" ? "Tecnologías" : "Technologies"}
@@ -310,6 +318,7 @@ export const ProjectsPage = () => {
             <Box
               component={"a"}
               href="https://santiagoarteche.github.io/ProyectoFinal-SantiagoArteche/"
+              target="blank"
               sx={{
                 gridArea: "ecomJs",
                 background:
@@ -354,7 +363,10 @@ export const ProjectsPage = () => {
                       md: "2.5rem",
                       lg: "2.8rem",
                     },
-                    textDecoration: "underline 5px solid black",
+                    textDecoration:
+                      darkMode === "black"
+                        ? "underline 5px solid black"
+                        : "underline 5px solid white",
                   }}
                 >
                   {language === "ES" ? "Tecnologías" : "Technologies"}
@@ -383,6 +395,7 @@ export const ProjectsPage = () => {
             <Box
               component={"a"}
               href="https://santiagoarteche.github.io/BlogDeCafe/"
+              target="blank"
               sx={{
                 gridArea: "blogCafe",
                 backgroundImage:
@@ -426,7 +439,10 @@ export const ProjectsPage = () => {
                       md: "2.5rem",
                       lg: "2.8rem",
                     },
-                    textDecoration: "underline 5px solid black",
+                    textDecoration:
+                      darkMode === "black"
+                        ? "underline 5px solid black"
+                        : "underline 5px solid white",
                   }}
                 >
                   {language === "ES" ? "Tecnologías" : "Technologies"}
@@ -454,6 +470,7 @@ export const ProjectsPage = () => {
             <Box
               component={"a"}
               href="https://am-foreverchic.vercel.app/"
+              target="blank"
               sx={{
                 gridArea: "amInd",
                 background:
@@ -502,8 +519,10 @@ export const ProjectsPage = () => {
                       md: "2.5rem",
                       lg: "2.8rem",
                     },
-
-                    textDecoration: "underline 5px solid black",
+                    textDecoration:
+                      darkMode === "black"
+                        ? "underline 5px solid black"
+                        : "underline 5px solid white",
                   }}
                 >
                   {language === "ES" ? "Tecnologías" : "Technologies"}

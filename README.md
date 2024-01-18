@@ -19,7 +19,7 @@
 # Iniciar Proyecto De Manera Local
 
 ```
-git clone https://github.com/SantiagoArteche/portfolioReact.git
+git clone https://github.com/SantiagoArteche/PortfolioReact.git
 ```
 
 ```

@@ -8,6 +8,7 @@ export const Github = () => {
     <Box
       component={"a"}
       href="https://github.com/SantiagoArteche"
+      target="blank"
       sx={{
         gridArea: "github",
         backgroundImage:

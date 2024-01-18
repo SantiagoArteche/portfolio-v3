@@ -5,6 +5,7 @@ export const EnglishLevel = ({ language }) => {
     <Box
       component={"a"}
       href="https://www.efset.org/cert/biWFFB"
+      target="blank"
       sx={{
         gridArea: "englishLevel",
         bgcolor: "#7b94fa8a",
