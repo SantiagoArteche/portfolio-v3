@@ -14,7 +14,7 @@ export const ChatBotInt = () => {
   const { changeChatState, chatOn } = useContext(ChatBotContext);
   const { language } = useContext(LanguageContext);
 
-  const { handleSubmit, handleChange } = useFormik({
+  const { handleSubmit, handleChange, resetForm, values } = useFormik({
     initialValues: {
       prompt: "",
     },
@@ -34,6 +34,7 @@ export const ChatBotInt = () => {
       };
 
       if (datos.prompt !== "") {
+        resetForm();
         setMessageSend(datos.prompt);
         setMessage("");
         setTimeout(() => {
@@ -64,6 +65,7 @@ export const ChatBotInt = () => {
       handleChange={handleChange}
       handleSubmit={handleSubmit}
       language={language}
+      values={values}
     />
   );
 };

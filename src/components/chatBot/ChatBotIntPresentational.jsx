@@ -13,6 +13,7 @@ export const ChatBotIntPresentational = ({
   Button,
   SendIcon,
   language,
+  values,
 }) => {
   const windowWidth = window.innerWidth;
   return (
@@ -183,6 +184,7 @@ export const ChatBotIntPresentational = ({
         <Input
           name="prompt"
           onChange={handleChange}
+          value={values.prompt}
           placeholder={
             language === "ES"
               ? "Inserte su pregunta..."

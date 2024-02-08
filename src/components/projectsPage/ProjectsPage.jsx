@@ -123,11 +123,11 @@ export const ProjectsPage = () => {
                 " ecomJs ecomJs ecomJs "
                 "asociacion asociacion asociacion"
                 "amInd amInd amInd"
-                "blogCafe blogCafe blogCafe"`,
+                "gifApp gifApp gifApp"`,
                 sm: `"ecomReact ecomReact ecomJs ecomJs "
-                " blogCafe blogCafe amInd amInd "
+                " gifApp gifApp amInd amInd "
                 "asociacion asociacion asociacion asociacion"`,
-                md: `"ecomReact ecomReact ecomJs ecomJs blogCafe blogCafe"
+                md: `"ecomReact ecomReact ecomJs ecomJs gifApp gifApp"
               "asociacion asociacion asociacion amInd amInd amInd"`,
               },
               gap: { xs: 5, md: 7, lg: 8.5, xl: 9 },
@@ -394,12 +394,12 @@ export const ProjectsPage = () => {
             </Box>
             <Box
               component={"a"}
-              href="https://santiagoarteche.github.io/BlogDeCafe/"
+              href="https://gif-app-san.vercel.app/"
               target="blank"
               sx={{
-                gridArea: "blogCafe",
+                gridArea: "gifApp",
                 backgroundImage:
-                  "url(https://res.cloudinary.com/diisow8ys/image/upload/v1704950899/BlogDeCaf%C3%A9_-_Inicio_-_Google_Chr_qfguvb.webp)",
+                  "url(https://res.cloudinary.com/diisow8ys/image/upload/v1707357637/PorfolioImg/GifExpertApp_ev8k9l.webp)",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: { xs: "232% 100%", xl: "cover" },
                 backgroundPosition: "51%",
@@ -411,7 +411,7 @@ export const ProjectsPage = () => {
                 ":hover": {
                   background: "#161c908a",
                   transition: "1s",
-                  ".cafe": {
+                  ".gifApp": {
                     display: "flex",
                     flexDirection: "column",
                   },
@@ -429,7 +429,7 @@ export const ProjectsPage = () => {
                   height: "100%",
                   gap: 3,
                 }}
-                className="cafe"
+                className="gifApp"
               >
                 <Box
                   sx={{
@@ -460,10 +460,9 @@ export const ProjectsPage = () => {
                     gap: 2,
                   }}
                 >
-                  <Box>HTML5</Box>
-                  <Box>CSS3</Box>
-                  <Box>Sass</Box>
-                  <Box>Bootstrap</Box>
+                  <Box>ReactJS</Box>
+                  <Box>MaterialUI</Box>
+                  <Box>Formik</Box>
                 </Box>
               </Box>
             </Box>
