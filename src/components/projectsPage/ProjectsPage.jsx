@@ -112,7 +112,7 @@ export const ProjectsPage = () => {
                 xl: "repeat(6, 11.5rem)",
               },
               gridTemplateRows: {
-                xs: "repeat(5, 20rem)",
+                xs: "repeat(6, 20rem)",
                 sm: "repeat(3, 17rem)",
                 md: "repeat(2, 22rem)",
                 lg: "repeat(2, 24rem)",
@@ -120,15 +120,16 @@ export const ProjectsPage = () => {
               },
               gridTemplateAreas: {
                 xs: `"ecomReact ecomReact ecomReact  "
-                " ecomJs ecomJs ecomJs "
+                "heroes heroes heroes"
                 "asociacion asociacion asociacion"
                 "amInd amInd amInd"
-                "gifApp gifApp gifApp"`,
-                sm: `"ecomReact ecomReact ecomJs ecomJs "
+                "gifApp gifApp gifApp"
+                "ecomJs ecomJs ecomJs"`,
+                sm: `"ecomReact ecomReact heroes heroes "
                 " gifApp gifApp amInd amInd "
-                "asociacion asociacion asociacion asociacion"`,
-                md: `"ecomReact ecomReact ecomJs ecomJs gifApp gifApp"
-              "asociacion asociacion asociacion amInd amInd amInd"`,
+                "asociacion asociacion ecomJs ecomJs "`,
+                md: `"ecomReact ecomReact heroes heroes gifApp gifApp"
+              "asociacion asociacion amInd amInd ecomJs ecomJs"`,
               },
               gap: { xs: 5, md: 7, lg: 8.5, xl: 9 },
               justifyContent: "center",
@@ -207,6 +208,7 @@ export const ProjectsPage = () => {
                   <Box>ReactJS</Box>
                   <Box>Bootstrap</Box>
                   <Box>React Router Dom</Box>
+                  <Box>Firebase</Box>
                   <Box>Formik</Box>
                   <Box>Yup</Box>
                 </Box>
@@ -477,10 +479,10 @@ export const ProjectsPage = () => {
                 backgroundRepeat: "no-repeat",
                 backgroundSize: {
                   xs: "200% 100%",
-                  md: "100% 100%",
+                  md: "cover",
                   xl: "cover",
                 },
-                backgroundPosition: { xs: "10%", md: "22%" },
+                backgroundPosition: { xs: "10%" },
                 borderRadius: 4,
                 cursor: "pointer",
                 textDecoration: "none",
@@ -543,6 +545,86 @@ export const ProjectsPage = () => {
                 >
                   <Box>ReactJS</Box>
                   <Box>MaterialUI</Box>
+                </Box>
+              </Box>
+            </Box>
+            <Box
+              component={"a"}
+              href="https://heroes-app-art.vercel.app/"
+              target="blank"
+              sx={{
+                gridArea: "heroes",
+                background:
+                  "url(https://res.cloudinary.com/diisow8ys/image/upload/v1708325714/HeroesApp_-_Google_Chrome_19_2_2_3_vkuy6g.webp)",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: {
+                  xs: "cover",
+                },
+                backgroundPosition: { xs: "10%" },
+                borderRadius: 4,
+                cursor: "pointer",
+                textDecoration: "none",
+                border:
+                  darkMode === "black" ? "2px solid white" : "2px solid black",
+                ":hover": {
+                  background: "#161c908a",
+                  transition: "1s",
+                  ".heroes": {
+                    display: "flex",
+                    flexDirection: "column",
+                    height: "100%",
+                  },
+                },
+              }}
+            >
+              <Box
+                sx={{
+                  color: "white",
+                  padding: 2,
+                  display: "none",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  height: "100%",
+                  textAlign: "center",
+                  gap: 3,
+                }}
+                className="heroes"
+              >
+                <Box
+                  sx={{
+                    fontSize: {
+                      xs: "2.3rem",
+                      sm: "1.8rem",
+                      md: "2.5rem",
+                      lg: "2.8rem",
+                    },
+                    textDecoration:
+                      darkMode === "black"
+                        ? "underline 5px solid black"
+                        : "underline 5px solid white",
+                  }}
+                >
+                  {language === "ES" ? "Tecnologías" : "Technologies"}
+                </Box>
+                <Box
+                  sx={{
+                    display: "flex",
+                    flexDirection: "column",
+                    textAlign: "center",
+
+                    fontSize: {
+                      xs: "1.5rem",
+                      sm: "1.2rem",
+                      md: "1.5rem",
+                      lg: "1.8rem",
+                    },
+                    gap: 2,
+                  }}
+                >
+                  <Box>ReactJS</Box>
+                  <Box>MaterialUI</Box>
+                  <Box>React Router Dom</Box>
+                  <Box>Formik</Box>
                 </Box>
               </Box>
             </Box>
