@@ -106,17 +106,17 @@ export const ProjectsPage = () => {
               display: "grid",
               gridTemplateColumns: {
                 xs: "repeat(3, 22vw)",
-                sm: "repeat(4, 7rem)",
+                sm: "repeat(3, 10rem)",
                 md: "repeat(6, 6.2rem)",
                 lg: "repeat(6, 8rem)",
                 xl: "repeat(6, 11.5rem)",
               },
               gridTemplateRows: {
                 xs: "repeat(6, 20rem)",
-                sm: "repeat(3, 17rem)",
-                md: "repeat(2, 22rem)",
-                lg: "repeat(2, 24rem)",
-                xl: "repeat(2, 28rem)",
+                sm: "repeat(6, 22rem)",
+                md: "repeat(3, 22rem)",
+                lg: "repeat(3, 24rem)",
+                xl: "repeat(3, 28rem)",
               },
               gridTemplateAreas: {
                 xs: `"ecomReact ecomReact ecomReact  "
@@ -125,11 +125,16 @@ export const ProjectsPage = () => {
                 "amInd amInd amInd"
                 "gifApp gifApp gifApp"
                 "ecomJs ecomJs ecomJs"`,
-                sm: `"ecomReact ecomReact heroes heroes "
-                " gifApp gifApp amInd amInd "
-                "asociacion asociacion ecomJs ecomJs "`,
-                md: `"ecomReact ecomReact heroes heroes gifApp gifApp"
-              "asociacion asociacion amInd amInd ecomJs ecomJs"`,
+                sm: `"ecomReact ecomReact ecomReact"
+                " gifApp gifApp gifApp "
+                "asociacion asociacion asociacion "
+                "amInd amInd amInd"
+                "ecomJs ecomJs ecomJs"
+                " heroes heroes heroes"`,
+
+                md: `"ecomReact ecomReact ecomReact gifApp gifApp gifApp"
+              "asociacion asociacion asociacion ecomJs ecomJs ecomJs"
+              "heroes heroes heroes amInd amInd amInd"`,
               },
               gap: { xs: 5, md: 7, lg: 8.5, xl: 9 },
               justifyContent: "center",
