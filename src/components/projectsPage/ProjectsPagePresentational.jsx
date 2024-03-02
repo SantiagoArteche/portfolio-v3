@@ -72,13 +72,14 @@ export const ProjectsPagePresentational = ({
               height: "11rem",
               padding: 3,
               borderRadius: 3,
-              color: "white",
+
               marginBottom: 8,
               display: "flex",
               alignItems: "center",
+              color: "white",
             }}
           >
-            <Link to="/">
+            <Link to="/" style={{}}>
               <ArrowBack
                 sx={{
                   fontSize: {
@@ -89,6 +90,7 @@ export const ProjectsPagePresentational = ({
                     xl: "5rem",
                   },
                   color: "white",
+                  ":hover": { color: darkMode === "black" ? "gray" : "black" },
                 }}
               />
             </Link>
@@ -213,7 +215,9 @@ export const ProjectsPagePresentational = ({
                       justifyContent: "center",
                       alignItems: "center",
                       gap: 1,
-                      ":hover": { color: "gray" },
+                      ":hover": {
+                        color: darkMode === "black" ? "gray" : "black",
+                      },
                     }}
                   >
                     <Box>
@@ -232,7 +236,9 @@ export const ProjectsPagePresentational = ({
                       justifyContent: "center",
                       alignItems: "center",
                       gap: 1,
-                      ":hover": { color: "gray" },
+                      ":hover": {
+                        color: darkMode === "black" ? "gray" : "black",
+                      },
                     }}
                   >
                     <Box>
@@ -251,7 +257,9 @@ export const ProjectsPagePresentational = ({
                       justifyContent: "center",
                       alignItems: "center",
                       gap: 1,
-                      ":hover": { color: "gray" },
+                      ":hover": {
+                        color: darkMode === "black" ? "gray" : "black",
+                      },
                     }}
                   >
                     <Box>{language === "ES" ? "Página" : "Page"}</Box>
@@ -266,7 +274,9 @@ export const ProjectsPagePresentational = ({
                         bottom: { xs: "52.4%", sm: "50%" },
                         right: "49%",
                         fontSize: 45,
-                        ":hover": { color: "gray" },
+                        ":hover": {
+                          color: darkMode === "black" ? "gray" : "black",
+                        },
                       }}
                       onClick={() =>
                         handleContentView({
@@ -433,7 +443,9 @@ export const ProjectsPagePresentational = ({
                       justifyContent: "center",
                       alignItems: "center",
                       gap: 1,
-                      ":hover": { color: "gray" },
+                      ":hover": {
+                        color: darkMode === "black" ? "gray" : "black",
+                      },
                     }}
                   >
                     <Box>
@@ -452,7 +464,9 @@ export const ProjectsPagePresentational = ({
                       justifyContent: "center",
                       alignItems: "center",
                       gap: 1,
-                      ":hover": { color: "gray" },
+                      ":hover": {
+                        color: darkMode === "black" ? "gray" : "black",
+                      },
                     }}
                   >
                     <Box>
@@ -471,7 +485,9 @@ export const ProjectsPagePresentational = ({
                       justifyContent: "center",
                       alignItems: "center",
                       gap: 1,
-                      ":hover": { color: "gray" },
+                      ":hover": {
+                        color: darkMode === "black" ? "gray" : "black",
+                      },
                     }}
                   >
                     <Box>{language === "ES" ? "Página" : "Page"}</Box>
@@ -486,7 +502,9 @@ export const ProjectsPagePresentational = ({
                         bottom: { xs: "52.4%", sm: "50%" },
                         right: "49%",
                         fontSize: 45,
-                        ":hover": { color: "gray" },
+                        ":hover": {
+                          color: darkMode === "black" ? "gray" : "black",
+                        },
                       }}
                       onClick={() =>
                         handleContentView({
@@ -647,7 +665,9 @@ export const ProjectsPagePresentational = ({
                       justifyContent: "center",
                       alignItems: "center",
                       gap: 1,
-                      ":hover": { color: "gray" },
+                      ":hover": {
+                        color: darkMode === "black" ? "gray" : "black",
+                      },
                     }}
                   >
                     <Box>
@@ -666,7 +686,9 @@ export const ProjectsPagePresentational = ({
                       justifyContent: "center",
                       alignItems: "center",
                       gap: 1,
-                      ":hover": { color: "gray" },
+                      ":hover": {
+                        color: darkMode === "black" ? "gray" : "black",
+                      },
                     }}
                   >
                     <Box>
@@ -685,7 +707,9 @@ export const ProjectsPagePresentational = ({
                       justifyContent: "center",
                       alignItems: "center",
                       gap: 1,
-                      ":hover": { color: "gray" },
+                      ":hover": {
+                        color: darkMode === "black" ? "gray" : "black",
+                      },
                     }}
                   >
                     <Box>{language === "ES" ? "Página" : "Page"}</Box>
@@ -700,7 +724,9 @@ export const ProjectsPagePresentational = ({
                         bottom: { xs: "52.4%", sm: "50%" },
                         right: "49%",
                         fontSize: 45,
-                        ":hover": { color: "gray" },
+                        ":hover": {
+                          color: darkMode === "black" ? "gray" : "black",
+                        },
                       }}
                       onClick={() =>
                         handleContentView({
@@ -846,7 +872,9 @@ export const ProjectsPagePresentational = ({
                       justifyContent: "center",
                       alignItems: "center",
                       gap: 1,
-                      ":hover": { color: "gray" },
+                      ":hover": {
+                        color: darkMode === "black" ? "gray" : "black",
+                      },
                     }}
                   >
                     <Box>
@@ -865,7 +893,9 @@ export const ProjectsPagePresentational = ({
                       justifyContent: "center",
                       alignItems: "center",
                       gap: 1,
-                      ":hover": { color: "gray" },
+                      ":hover": {
+                        color: darkMode === "black" ? "gray" : "black",
+                      },
                     }}
                   >
                     <Box>
@@ -884,7 +914,9 @@ export const ProjectsPagePresentational = ({
                       justifyContent: "center",
                       alignItems: "center",
                       gap: 1,
-                      ":hover": { color: "gray" },
+                      ":hover": {
+                        color: darkMode === "black" ? "gray" : "black",
+                      },
                     }}
                   >
                     <Box>{language === "ES" ? "Página" : "Page"}</Box>
@@ -899,7 +931,9 @@ export const ProjectsPagePresentational = ({
                         bottom: { xs: "52.4%", sm: "50%" },
                         right: "49%",
                         fontSize: 45,
-                        ":hover": { color: "gray" },
+                        ":hover": {
+                          color: darkMode === "black" ? "gray" : "black",
+                        },
                       }}
                       onClick={() =>
                         handleContentView({
@@ -1048,7 +1082,9 @@ export const ProjectsPagePresentational = ({
                       justifyContent: "center",
                       alignItems: "center",
                       gap: 1,
-                      ":hover": { color: "gray" },
+                      ":hover": {
+                        color: darkMode === "black" ? "gray" : "black",
+                      },
                     }}
                   >
                     <Box>
@@ -1067,7 +1103,9 @@ export const ProjectsPagePresentational = ({
                       justifyContent: "center",
                       alignItems: "center",
                       gap: 1,
-                      ":hover": { color: "gray" },
+                      ":hover": {
+                        color: darkMode === "black" ? "gray" : "black",
+                      },
                     }}
                   >
                     <Box>
@@ -1086,7 +1124,9 @@ export const ProjectsPagePresentational = ({
                       justifyContent: "center",
                       alignItems: "center",
                       gap: 1,
-                      ":hover": { color: "gray" },
+                      ":hover": {
+                        color: darkMode === "black" ? "gray" : "black",
+                      },
                     }}
                   >
                     <Box>{language === "ES" ? "Página" : "Page"}</Box>
@@ -1101,7 +1141,9 @@ export const ProjectsPagePresentational = ({
                         bottom: { xs: "52.4%", sm: "50%" },
                         right: "49%",
                         fontSize: 45,
-                        ":hover": { color: "gray" },
+                        ":hover": {
+                          color: darkMode === "black" ? "gray" : "black",
+                        },
                       }}
                       onClick={() =>
                         handleContentView({
@@ -1248,7 +1290,9 @@ export const ProjectsPagePresentational = ({
                       justifyContent: "center",
                       alignItems: "center",
                       gap: 1,
-                      ":hover": { color: "gray" },
+                      ":hover": {
+                        color: darkMode === "black" ? "gray" : "black",
+                      },
                       display: calendar != "none" ? "none" : "flex",
                     }}
                   >
@@ -1271,7 +1315,9 @@ export const ProjectsPagePresentational = ({
                       })
                     }
                     sx={{
-                      ":hover": { color: "gray" },
+                      ":hover": {
+                        color: darkMode === "black" ? "gray" : "black",
+                      },
                       display: calendar != "none" ? "none" : "flex",
                       color: "white",
                       textDecoration: "none",
@@ -1296,7 +1342,9 @@ export const ProjectsPagePresentational = ({
                       justifyContent: "center",
                       alignItems: "center",
                       gap: 1,
-                      ":hover": { color: "gray" },
+                      ":hover": {
+                        color: darkMode === "black" ? "gray" : "black",
+                      },
                     }}
                   >
                     <Box>{language === "ES" ? "Página" : "Page"}</Box>
@@ -1311,7 +1359,9 @@ export const ProjectsPagePresentational = ({
                         bottom: { xs: "52.4%", sm: "50%" },
                         right: "49%",
                         fontSize: { xs: 33, sm: 45 },
-                        ":hover": { color: "gray" },
+                        ":hover": {
+                          color: darkMode === "black" ? "gray" : "black",
+                        },
                       }}
                       onClick={() =>
                         handleContentView({
@@ -1420,7 +1470,9 @@ export const ProjectsPagePresentational = ({
                           bottom: { xs: "52.4%", sm: "50%" },
                           right: "49%",
                           fontSize: 45,
-                          ":hover": { color: "gray" },
+                          ":hover": {
+                            color: darkMode === "black" ? "gray" : "black",
+                          },
                         }}
                         onClick={() =>
                           handleContentView({
@@ -1443,9 +1495,9 @@ export const ProjectsPagePresentational = ({
                         }}
                       >
                         <Box
-                          component={"a"}
+                          component="a"
                           href="https://github.com/SantiagoArteche/calendar-app"
-                          target="blank"
+                          target="blink"
                           sx={{
                             fontSize: {
                               xs: "2rem",
@@ -1458,7 +1510,9 @@ export const ProjectsPagePresentational = ({
                             flexWrap: "wrap",
                             textDecoration: "none",
                             color: "white",
-                            ":hover": { color: "gray" },
+                            ":hover": {
+                              color: darkMode === "black" ? "gray" : "black",
+                            },
                             gap: 1,
                             justifyContent: "center",
                             alignItems: "center",
@@ -1472,9 +1526,9 @@ export const ProjectsPagePresentational = ({
                           <ArrowOutward sx={{ fontSize: 37 }} />
                         </Box>
                         <Box
-                          component={"a"}
+                          component="a"
                           href="https://github.com/SantiagoArteche/calendar-app-api"
-                          target="blank"
+                          target="blink"
                           sx={{
                             fontSize: {
                               xs: "2rem",
@@ -1487,7 +1541,9 @@ export const ProjectsPagePresentational = ({
                             flexWrap: "wrap",
                             textDecoration: "none",
                             color: "white",
-                            ":hover": { color: "gray" },
+                            ":hover": {
+                              color: darkMode === "black" ? "gray" : "black",
+                            },
                             gap: 1,
                             justifyContent: "center",
                             alignItems: "center",
@@ -1581,7 +1637,9 @@ export const ProjectsPagePresentational = ({
                       justifyContent: "center",
                       alignItems: "center",
                       gap: 1,
-                      ":hover": { color: "gray" },
+                      ":hover": {
+                        color: darkMode === "black" ? "gray" : "black",
+                      },
                     }}
                   >
                     <Box>
@@ -1600,7 +1658,9 @@ export const ProjectsPagePresentational = ({
                       justifyContent: "center",
                       alignItems: "center",
                       gap: 1,
-                      ":hover": { color: "gray" },
+                      ":hover": {
+                        color: darkMode === "black" ? "gray" : "black",
+                      },
                     }}
                   >
                     <Box>
@@ -1619,7 +1679,9 @@ export const ProjectsPagePresentational = ({
                       justifyContent: "center",
                       alignItems: "center",
                       gap: 1,
-                      ":hover": { color: "gray" },
+                      ":hover": {
+                        color: darkMode === "black" ? "gray" : "black",
+                      },
                     }}
                   >
                     <Box>{language === "ES" ? "Página" : "Page"}</Box>
@@ -1634,7 +1696,9 @@ export const ProjectsPagePresentational = ({
                         bottom: { xs: "52.4%", sm: "50%" },
                         right: "49%",
                         fontSize: 45,
-                        ":hover": { color: "gray" },
+                        ":hover": {
+                          color: darkMode === "black" ? "gray" : "black",
+                        },
                       }}
                       onClick={() =>
                         handleContentView({
@@ -1799,7 +1863,9 @@ export const ProjectsPagePresentational = ({
                       justifyContent: "center",
                       alignItems: "center",
                       gap: 1,
-                      ":hover": { color: "gray" },
+                      ":hover": {
+                        color: darkMode === "black" ? "gray" : "black",
+                      },
                     }}
                   >
                     <Box>
@@ -1818,7 +1884,9 @@ export const ProjectsPagePresentational = ({
                       justifyContent: "center",
                       alignItems: "center",
                       gap: 1,
-                      ":hover": { color: "gray" },
+                      ":hover": {
+                        color: darkMode === "black" ? "gray" : "black",
+                      },
                     }}
                   >
                     <Box>
@@ -1837,7 +1905,9 @@ export const ProjectsPagePresentational = ({
                       justifyContent: "center",
                       alignItems: "center",
                       gap: 1,
-                      ":hover": { color: "gray" },
+                      ":hover": {
+                        color: darkMode === "black" ? "gray" : "black",
+                      },
                     }}
                   >
                     <Box>{language === "ES" ? "Página" : "Page"}</Box>
@@ -1852,7 +1922,9 @@ export const ProjectsPagePresentational = ({
                         bottom: { xs: "52.4%", sm: "50%" },
                         right: "49%",
                         fontSize: 45,
-                        ":hover": { color: "gray" },
+                        ":hover": {
+                          color: darkMode === "black" ? "gray" : "black",
+                        },
                       }}
                       onClick={() =>
                         handleContentView({
