@@ -2,7 +2,7 @@
 
 ### Link: https://portfolioarteche.vercel.app/
 
-![](https://res.cloudinary.com/diisow8ys/image/upload/v1705105086/Your_Repositories_-_Google_Chrome_12_1_2024_21_16_14_xvy6t0.png)
+![](https://res.cloudinary.com/santiago-arteche/image/upload/v1705105086/Your_Repositories_-_Google_Chrome_12_1_2024_21_16_14_xvy6t0.png)
 
 # Librerias Utilizadas
 
