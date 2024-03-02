@@ -273,7 +273,7 @@ export const ProjectsPagePresentational = ({
                         position: "relative",
                         bottom: { xs: "52.4%", sm: "50%" },
                         right: "49%",
-                        fontSize: 45,
+                        fontSize: { xs: 40, sm: 45 },
                         ":hover": {
                           color: darkMode === "black" ? "gray" : "black",
                         },
@@ -299,24 +299,6 @@ export const ProjectsPagePresentational = ({
                         position: "absolute",
                       }}
                     >
-                      <Box
-                        sx={{
-                          fontSize: {
-                            xs: "2.3rem",
-                            sm: "2.4rem",
-                            md: "2.5rem",
-                            lg: "2.8rem",
-                          },
-                          textDecoration:
-                            darkMode === "black"
-                              ? "underline 5px solid black"
-                              : "underline 5px solid white",
-                          marginBottom: 3,
-                        }}
-                      >
-                        {language === "ES" ? "Tecnologías" : "Technologies"}
-                      </Box>
-
                       <Box
                         sx={{
                           fontSize: {
@@ -501,7 +483,7 @@ export const ProjectsPagePresentational = ({
                         position: "relative",
                         bottom: { xs: "52.4%", sm: "50%" },
                         right: "49%",
-                        fontSize: 45,
+                        fontSize: { xs: 40, sm: 45 },
                         ":hover": {
                           color: darkMode === "black" ? "gray" : "black",
                         },
@@ -527,24 +509,6 @@ export const ProjectsPagePresentational = ({
                         position: "absolute",
                       }}
                     >
-                      <Box
-                        sx={{
-                          fontSize: {
-                            xs: "2.3rem",
-                            sm: "2.4rem",
-                            md: "2.5rem",
-                            lg: "2.8rem",
-                          },
-                          textDecoration:
-                            darkMode === "black"
-                              ? "underline 5px solid black"
-                              : "underline 5px solid white",
-                          marginBottom: 3,
-                        }}
-                      >
-                        {language === "ES" ? "Tecnologías" : "Technologies"}
-                      </Box>
-
                       <Box
                         sx={{
                           fontSize: {
@@ -723,7 +687,7 @@ export const ProjectsPagePresentational = ({
                         position: "relative",
                         bottom: { xs: "52.4%", sm: "50%" },
                         right: "49%",
-                        fontSize: 45,
+                        fontSize: { xs: 40, sm: 45 },
                         ":hover": {
                           color: darkMode === "black" ? "gray" : "black",
                         },
@@ -749,24 +713,6 @@ export const ProjectsPagePresentational = ({
                         position: "absolute",
                       }}
                     >
-                      <Box
-                        sx={{
-                          fontSize: {
-                            xs: "2.3rem",
-                            sm: "2.4rem",
-                            md: "2.5rem",
-                            lg: "2.8rem",
-                          },
-                          textDecoration:
-                            darkMode === "black"
-                              ? "underline 5px solid black"
-                              : "underline 5px solid white",
-                          marginBottom: 3,
-                        }}
-                      >
-                        {language === "ES" ? "Tecnologías" : "Technologies"}
-                      </Box>
-
                       <Box
                         sx={{
                           fontSize: {
@@ -930,7 +876,7 @@ export const ProjectsPagePresentational = ({
                         position: "relative",
                         bottom: { xs: "52.4%", sm: "50%" },
                         right: "49%",
-                        fontSize: 45,
+                        fontSize: { xs: 40, sm: 45 },
                         ":hover": {
                           color: darkMode === "black" ? "gray" : "black",
                         },
@@ -956,24 +902,6 @@ export const ProjectsPagePresentational = ({
                         position: "absolute",
                       }}
                     >
-                      <Box
-                        sx={{
-                          fontSize: {
-                            xs: "2.3rem",
-                            sm: "2.4rem",
-                            md: "2.5rem",
-                            lg: "2.8rem",
-                          },
-                          textDecoration:
-                            darkMode === "black"
-                              ? "underline 5px solid black"
-                              : "underline 5px solid white",
-                          marginBottom: 3,
-                        }}
-                      >
-                        {language === "ES" ? "Tecnologías" : "Technologies"}
-                      </Box>
-
                       <Box
                         sx={{
                           fontSize: {
@@ -1140,7 +1068,7 @@ export const ProjectsPagePresentational = ({
                         position: "relative",
                         bottom: { xs: "52.4%", sm: "50%" },
                         right: "49%",
-                        fontSize: 45,
+                        fontSize: { xs: 40, sm: 45 },
                         ":hover": {
                           color: darkMode === "black" ? "gray" : "black",
                         },
@@ -1166,24 +1094,6 @@ export const ProjectsPagePresentational = ({
                         position: "absolute",
                       }}
                     >
-                      <Box
-                        sx={{
-                          fontSize: {
-                            xs: "2.3rem",
-                            sm: "2.4rem",
-                            md: "2.5rem",
-                            lg: "2.8rem",
-                          },
-                          textDecoration:
-                            darkMode === "black"
-                              ? "underline 5px solid black"
-                              : "underline 5px solid white",
-                          marginBottom: 3,
-                        }}
-                      >
-                        {language === "ES" ? "Tecnologías" : "Technologies"}
-                      </Box>
-
                       <Box
                         sx={{
                           fontSize: {
@@ -1358,7 +1268,7 @@ export const ProjectsPagePresentational = ({
                         position: "relative",
                         bottom: { xs: "52.4%", sm: "50%" },
                         right: "49%",
-                        fontSize: { xs: 33, sm: 45 },
+                        fontSize: { xs: 40, sm: 45 },
                         ":hover": {
                           color: darkMode === "black" ? "gray" : "black",
                         },
@@ -1384,24 +1294,6 @@ export const ProjectsPagePresentational = ({
                         position: "absolute",
                       }}
                     >
-                      <Box
-                        sx={{
-                          fontSize: {
-                            xs: "2.3rem",
-                            sm: "2.4rem",
-                            md: "2.5rem",
-                            lg: "2.8rem",
-                          },
-                          textDecoration:
-                            darkMode === "black"
-                              ? "underline 5px solid black"
-                              : "underline 5px solid white",
-                          marginBottom: 3,
-                        }}
-                      >
-                        {language === "ES" ? "Tecnologías" : "Technologies"}
-                      </Box>
-
                       <Box
                         sx={{
                           fontSize: {
@@ -1469,7 +1361,7 @@ export const ProjectsPagePresentational = ({
                           position: "relative",
                           bottom: { xs: "52.4%", sm: "50%" },
                           right: "49%",
-                          fontSize: 45,
+                          fontSize: { xs: 40, sm: 45 },
                           ":hover": {
                             color: darkMode === "black" ? "gray" : "black",
                           },
@@ -1695,7 +1587,7 @@ export const ProjectsPagePresentational = ({
                         position: "relative",
                         bottom: { xs: "52.4%", sm: "50%" },
                         right: "49%",
-                        fontSize: 45,
+                        fontSize: { xs: 40, sm: 45 },
                         ":hover": {
                           color: darkMode === "black" ? "gray" : "black",
                         },
@@ -1721,24 +1613,6 @@ export const ProjectsPagePresentational = ({
                         position: "absolute",
                       }}
                     >
-                      <Box
-                        sx={{
-                          fontSize: {
-                            xs: "2.3rem",
-                            sm: "2.4rem",
-                            md: "2.5rem",
-                            lg: "2.8rem",
-                          },
-                          textDecoration:
-                            darkMode === "black"
-                              ? "underline 5px solid black"
-                              : "underline 5px solid white",
-                          marginBottom: 3,
-                        }}
-                      >
-                        {language === "ES" ? "Tecnologías" : "Technologies"}
-                      </Box>
-
                       <Box
                         sx={{
                           fontSize: {
@@ -1921,7 +1795,7 @@ export const ProjectsPagePresentational = ({
                         position: "relative",
                         bottom: { xs: "52.4%", sm: "50%" },
                         right: "49%",
-                        fontSize: 45,
+                        fontSize: { xs: 40, sm: 45 },
                         ":hover": {
                           color: darkMode === "black" ? "gray" : "black",
                         },
@@ -1947,24 +1821,6 @@ export const ProjectsPagePresentational = ({
                         position: "absolute",
                       }}
                     >
-                      <Box
-                        sx={{
-                          fontSize: {
-                            xs: "2.3rem",
-                            sm: "2.4rem",
-                            md: "2.5rem",
-                            lg: "2.8rem",
-                          },
-                          textDecoration:
-                            darkMode === "black"
-                              ? "underline 5px solid black"
-                              : "underline 5px solid white",
-                          marginBottom: 3,
-                        }}
-                      >
-                        {language === "ES" ? "Tecnologías" : "Technologies"}
-                      </Box>
-
                       <Box
                         sx={{
                           fontSize: {
