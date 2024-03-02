@@ -8,7 +8,7 @@ export const Linkedin = () => {
       <Box
         component={"a"}
         href="https://www.linkedin.com/in/santiago-arteche/"
-        target="blank"
+        target="blink"
         sx={{
           gridArea: "linkedin",
           bgcolor: "#40b9ff8a",

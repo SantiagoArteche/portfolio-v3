@@ -4,8 +4,8 @@ export const Certificate = ({ language }) => {
   return (
     <Box
       component={"a"}
-      href="https://www.coderhouse.com/certificados/64b25eb5c4c45b00029c544b"
-      target="blank"
+      href="https://www.coderhouse.com/ar/certificados/65d0e50a43a4672c7f43f81c?lang="
+      target="blink"
       sx={{
         gridArea: "certificate",
         bgcolor: "#5f54c78a",
@@ -36,7 +36,7 @@ export const Certificate = ({ language }) => {
           width: { sm: "180px", md: "100%" },
         }}
       >
-        {language === "ES" ? "Desarrollador FrontEnd" : "FrontEnd Developer"}
+        {language === "ES" ? "Desarrollador Fullstack" : "Fullstack Developer"}
       </Box>
       <Box
         sx={{
