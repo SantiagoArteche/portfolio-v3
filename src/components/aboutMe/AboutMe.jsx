@@ -53,6 +53,26 @@ export const AboutMe = ({ language }) => {
             : "I am a fullstack developer with experience in React and Node. I'm good at CSS and HTML, as well as JavaScript. I love learning and experimenting with new technologies. I have a good eye for details and always put my all into my work."}
         </Box>
       </Box>
+      <Box
+        sx={{
+          backgroundImage: {
+            xs: "",
+            md: "url(https://res.cloudinary.com/santiago-arteche/image/upload/v1711425730/PorfolioImg/cvImageBcLOUD_etgmgs.webp)",
+            lg: "url(https://res.cloudinary.com/santiago-arteche/image/upload/v1711425428/PorfolioImg/cvImage_1_uwckvk.webp)",
+          },
+          height: "100%",
+          left: { xs: "", md: "44%", lg: "50%", xl: "52.5%" },
+          width: 300,
+          position: "absolute",
+          backgroundRepeat: "no-repeat",
+          bottom: { xs: "", md: "27.6%", lg: "33.3%", xl: "32.8%" },
+          backgroundPosition: "37%",
+          borderBottomRightRadius: "100%",
+          borderBottomLeftRadius: "10%",
+          border: "none",
+          outline: "none",
+        }}
+      />
     </Box>
   );
 };

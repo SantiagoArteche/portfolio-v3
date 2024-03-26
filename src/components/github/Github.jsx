@@ -13,8 +13,8 @@ export const Github = () => {
         gridArea: "github",
         backgroundImage:
           darkMode === "black"
-            ? `linear-gradient(to bottom, rgba(10, 10, 10, 0.607), rgba(10, 10, 10, 0.607)), url(/img/githubGiph.gif)`
-            : `linear-gradient(to bottom, rgba(10, 10, 10, 0.07), rgba(10, 10, 10, 0.007)), url(/img/githubGiph.gif)`,
+            ? `linear-gradient(to bottom, rgba(10, 10, 10, 0.607), rgba(10, 10, 10, 0.607)), url(https://res.cloudinary.com/santiago-arteche/image/upload/v1711422158/PorfolioImg/githubGiph_iboahp.gif)`
+            : `linear-gradient(to bottom, rgba(10, 10, 10, 0.07), rgba(10, 10, 10, 0.007)), url(https://res.cloudinary.com/santiago-arteche/image/upload/v1711422158/PorfolioImg/githubGiph_iboahp.gif)`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundPosition: "center",

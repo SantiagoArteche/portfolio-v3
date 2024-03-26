@@ -1,5 +1,5 @@
 export const WeatherPresentational = ({
-  weather,
+  degrees,
   isNight,
   Box,
   hour,
@@ -51,13 +51,10 @@ export const WeatherPresentational = ({
                   sm: "2.3rem",
                   md: "3rem",
                   lg: "3.5rem",
-                  xl: "4rem",
                 },
               }}
             >
-              {weather?.main?.temp
-                ? `${(weather.main.temp - 273.15).toFixed(0)}°`
-                : "..."}
+              {degrees ? `${degrees}°C` : "Loading..."}
             </Box>
           </Box>
           <Box

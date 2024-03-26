@@ -1,4 +1,3 @@
-import "./chatBot.css";
 export const ChatBotIntPresentational = ({
   Box,
   chatOn,

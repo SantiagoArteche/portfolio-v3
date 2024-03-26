@@ -3,7 +3,9 @@ import { ChatBotContextProvider } from "./Context/ChatBotContext";
 import { DarkModeContextProvider } from "./Context/DarkModeContext";
 import { LanguageContextProvider } from "./Context/LanguageContext";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
-import { routes } from "./menuRoutes";
+
+import { Grid } from "./components/grid/Grid";
+import { ProjectsPage } from "./components/projectsPage/ProjectsPage";
 
 function App() {
   return (
@@ -12,9 +14,8 @@ function App() {
         <DarkModeContextProvider>
           <LanguageContextProvider>
             <Routes>
-              {routes.map(({ id, path, Element }) => (
-                <Route key={id} path={path} element={<Element />} />
-              ))}
+              <Route path="/" element={<Grid />} />
+              <Route path="/projects" element={<ProjectsPage />} />
             </Routes>
           </LanguageContextProvider>
         </DarkModeContextProvider>

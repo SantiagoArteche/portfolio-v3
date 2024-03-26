@@ -10,6 +10,7 @@ export const Weather = () => {
   if (minutes < 10) minutes = `0${minutes}`;
   const timer = `${hour}:${minutes}`;
   const [weather, setWeather] = useState([]);
+  const [degrees, setDegrees] = useState("");
   const [currentTime, setCurrentTime] = useState(timer);
   const { darkMode } = useContext(DarkModeContext);
 
@@ -40,14 +41,20 @@ export const Weather = () => {
       .then((data) => setWeather(data));
   }, []);
 
+  useEffect(() => {
+    if (weather) {
+      setDegrees((weather.main?.temp - 273.15).toFixed(0));
+    }
+  }, [weather]);
+
   return (
     <WeatherPresentational
       Box={Box}
       isNight={isNight}
-      weather={weather}
       hour={hour}
       darkMode={darkMode}
       currentTime={currentTime}
+      degrees={degrees}
     />
   );
 };

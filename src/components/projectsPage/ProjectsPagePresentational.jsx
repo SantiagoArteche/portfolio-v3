@@ -20,7 +20,7 @@ export const ProjectsPagePresentational = ({
     <>
       <Box
         sx={{
-          backgroundImage: `linear-gradient(to bottom, rgba(3, 3, 3, 0.62), rgba(3, 3, 3, 0.62)), url(/img/noisy.gif);`,
+          backgroundImage: `linear-gradient(to bottom, rgba(3, 3, 3, 0.62), rgba(3, 3, 3, 0.62)), url(https://res.cloudinary.com/santiago-arteche/image/upload/v1711422274/PorfolioImg/noisy_kievcq.gif);`,
           height: "100vh",
           width: "100vw",
           position: "fixed",
@@ -30,7 +30,7 @@ export const ProjectsPagePresentational = ({
           pointerEvents: "none",
           zIndex: 1,
         }}
-      ></Box>
+      />
       <Box
         sx={{
           backgroundColor: darkMode,
@@ -42,7 +42,7 @@ export const ProjectsPagePresentational = ({
           pointerEvents: "none",
           zIndex: -1,
         }}
-      ></Box>
+      />
       <Box
         sx={{
           display: "flex",
@@ -127,19 +127,20 @@ export const ProjectsPagePresentational = ({
                 xl: "repeat(4, 26rem)",
               },
               gridTemplateAreas: {
-                xs: `"calendar calendar calendar"
+                xs: ` "tesla tesla tesla"
+                "calendar calendar calendar"
               "journal journal journal"
               "asociacion asociacion asociacion"
               "gifApp gifApp gifApp"
               "heroes heroes heroes"
               "amInd amInd amInd"
               "ecomReact ecomReact ecomReact"
-              "ecomJs ecomJs ecomJs"`,
+             `,
 
-                md: `"calendar calendar calendar journal journal journal"
-            "asociacion asociacion asociacion gifApp gifApp gifApp"
+                md: `"tesla tesla tesla calendar calendar calendar "
+            "journal journal journal asociacion asociacion asociacion "
             "heroes heroes heroes amInd amInd amInd"
-            "ecomReact ecomReact ecomReact ecomJs ecomJs ecomJs"`,
+            "ecomReact ecomReact ecomReact gifApp gifApp gifApp"`,
               },
               gap: { xs: 5, md: 7, lg: 8.5, xl: 9 },
               justifyContent: "center",
@@ -323,7 +324,7 @@ export const ProjectsPagePresentational = ({
                             gap: 3,
                           }}
                         >
-                          <Box>ReactJS</Box>
+                          <Box>React Js</Box>
                           <Box>Bootstrap</Box>
                           <Box
                             sx={{
@@ -533,7 +534,7 @@ export const ProjectsPagePresentational = ({
                             gap: 3,
                           }}
                         >
-                          <Box>ReactJS</Box>
+                          <Box>React Js</Box>
                           <Box>MaterialUI</Box>
                           <Box sx={{ width: { xs: 150, sm: "100%" } }}>
                             React Router Dom
@@ -550,7 +551,7 @@ export const ProjectsPagePresentational = ({
                           }}
                         >
                           <Box>Yup</Box>
-                          <Box>NodeJS</Box>
+                          <Box>Node Js</Box>
                           <Box>Express</Box>
                           <Box>MongoDB</Box>
                         </Box>
@@ -562,12 +563,12 @@ export const ProjectsPagePresentational = ({
             </Box>
             <Box
               sx={{
-                gridArea: "ecomJs",
+                gridArea: "tesla",
                 background:
-                  "url(https://res.cloudinary.com/santiago-arteche/image/upload/v1704951090/OffStore_-_MainPage_-_Google_Chr_khpy1r.webp)",
+                  "url(https://res.cloudinary.com/santiago-arteche/image/upload/v1711419056/PorfolioImg/tesla-shop_wb6kwj.webp)",
                 backgroundRepeat: "no-repeat",
-                backgroundSize: { xs: "210% 100%", xl: "cover" },
-                backgroundPosition: "59%",
+                backgroundSize: { xs: "cover" },
+
                 borderRadius: 4,
                 cursor: "pointer",
                 border:
@@ -641,7 +642,7 @@ export const ProjectsPagePresentational = ({
                   </Box>
                   <Box
                     component="a"
-                    href="https://github.com/SantiagoArteche/ProyectoFinal-SantiagoArteche"
+                    href="https://github.com/SantiagoArteche/tesla-shop"
                     target="blink"
                     sx={{
                       display: eJs != "none" ? "none" : "flex",
@@ -662,7 +663,7 @@ export const ProjectsPagePresentational = ({
                   </Box>
                   <Box
                     component="a"
-                    href="https://santiagoarteche.github.io/ProyectoFinal-SantiagoArteche"
+                    href="https://tesla-shop-art.vercel.app/"
                     target="blink"
                     sx={{
                       display: eJs != "none" ? "none" : "flex",
@@ -737,11 +738,27 @@ export const ProjectsPagePresentational = ({
                             gap: 3,
                           }}
                         >
-                          <Box>HTML5</Box>
-                          <Box>CSS3</Box>
-                          <Box>Sass</Box>
-                          <Box>Bootstrap</Box>
-                          <Box>JavaScript</Box>
+                          <Box>TypeScript</Box>
+                          <Box>Tailwind</Box>
+
+                          <Box>Formik</Box>
+                          <Box>Yup</Box>
+                          <Box>Node Js</Box>
+                        </Box>
+                        <Box
+                          sx={{
+                            display: "flex",
+                            flexDirection: "column",
+                            justifyContent: "center",
+                            alignItems: "center",
+                            gap: { xs: 4, sm: 3 },
+                          }}
+                        >
+                          <Box>PostgreSQL</Box>
+                          <Box>Prisma</Box>
+                          <Box>Zustand</Box>
+                          <Box>Next Js</Box>
+                          <Box>Next Auth</Box>
                         </Box>
                       </Box>
                     </Box>
@@ -926,7 +943,7 @@ export const ProjectsPagePresentational = ({
                             gap: 3,
                           }}
                         >
-                          <Box>ReactJS</Box>
+                          <Box>React Js</Box>
                           <Box>MaterialUI</Box>
                           <Box>Formik</Box>
                         </Box>
@@ -1118,7 +1135,7 @@ export const ProjectsPagePresentational = ({
                             gap: 3,
                           }}
                         >
-                          <Box>ReactJS</Box>
+                          <Box>React Js</Box>
                           <Box>MaterialUI</Box>
                         </Box>
                       </Box>
@@ -1318,7 +1335,7 @@ export const ProjectsPagePresentational = ({
                             gap: 3,
                           }}
                         >
-                          <Box>ReactJS</Box>
+                          <Box>React Js</Box>
                           <Box>Bootstrap</Box>
                           <Box
                             sx={{
@@ -1343,7 +1360,7 @@ export const ProjectsPagePresentational = ({
                           }}
                         >
                           <Box>Redux</Box>
-                          <Box>NodeJS</Box>
+                          <Box>Node Js</Box>
                           <Box>Express</Box>
                           <Box>MongoDB</Box>
                           <Box sx={{ width: { xs: 200, sm: "100%" } }}>
@@ -1637,7 +1654,7 @@ export const ProjectsPagePresentational = ({
                             gap: 3,
                           }}
                         >
-                          <Box>ReactJS</Box>
+                          <Box>React Js</Box>
                           <Box>MaterialUI</Box>
                           <Box sx={{ width: { xs: 150, sm: "100%" } }}>
                             React Router Dom
@@ -1845,7 +1862,7 @@ export const ProjectsPagePresentational = ({
                             gap: 3,
                           }}
                         >
-                          <Box>ReactJS</Box>
+                          <Box>React Js</Box>
                           <Box>MaterialUI</Box>
                           <Box sx={{ width: { xs: 150, sm: "100%" } }}>
                             React Router Dom

@@ -1,5 +1,5 @@
 import { Box } from "@mui/material";
-import { useContext, useEffect } from "react";
+import { useContext } from "react";
 import { AboutMe } from "../aboutMe/AboutMe";
 import { LanguageContext } from "../../Context/LanguageContext";
 import { DarkModeContext } from "../../Context/DarkModeContext";
@@ -25,15 +25,11 @@ export const Grid = () => {
   const { darkMode } = useContext(DarkModeContext);
   document.title = language === "ES" ? "Portafolio" : "Portfolio";
 
-  useEffect(() => {
-    darkMode;
-  }, [darkMode]);
-
   return (
     <>
       <Box
         sx={{
-          backgroundImage: `linear-gradient(to bottom, rgba(3, 3, 3, 0.62), rgba(3, 3, 3, 0.62)), url(/img/noisy.gif);`,
+          backgroundImage: `linear-gradient(to bottom, rgba(3, 3, 3, 0.62), rgba(3, 3, 3, 0.62)), url(https://res.cloudinary.com/santiago-arteche/image/upload/v1711422274/PorfolioImg/noisy_kievcq.gif);`,
           height: "130vh",
           width: "130vw",
           position: "fixed",
@@ -43,7 +39,7 @@ export const Grid = () => {
           pointerEvents: "none",
           zIndex: 1,
         }}
-      ></Box>
+      />
       <Box
         sx={{
           backgroundColor: darkMode,
@@ -55,7 +51,7 @@ export const Grid = () => {
           pointerEvents: "none",
           zIndex: -1,
         }}
-      ></Box>
+      />
       <Box
         sx={{
           display: "grid",

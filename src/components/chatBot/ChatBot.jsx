@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
 import SmartToyIcon from "@mui/icons-material/SmartToy";
-import "./chatBot.css";
+
 import { useContext } from "react";
 import { DarkModeContext } from "../../Context/DarkModeContext";
 import { ChatBotContext } from "../../Context/ChatBotContext";
