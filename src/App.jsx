@@ -1,9 +1,7 @@
-import "./App.css";
 import { ChatBotContextProvider } from "./Context/ChatBotContext";
 import { DarkModeContextProvider } from "./Context/DarkModeContext";
 import { LanguageContextProvider } from "./Context/LanguageContext";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
-
 import { Grid } from "./components/grid/Grid";
 import { ProjectsPage } from "./components/projectsPage/ProjectsPage";
 

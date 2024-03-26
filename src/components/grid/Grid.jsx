@@ -39,6 +39,7 @@ export const Grid = () => {
           pointerEvents: "none",
           zIndex: 1,
         }}
+        component="img"
       />
       <Box
         sx={{

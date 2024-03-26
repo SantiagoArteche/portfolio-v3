@@ -49,8 +49,8 @@ export const AboutMe = ({ language }) => {
           }}
         >
           {language === "ES"
-            ? "Soy desarrollador fullstack con experiencia en React y Node. Soy bueno en CSS y HTML, así como en JavaScript. Me encanta aprender y experimentar con nuevas tecnologías. Tengo buen ojo para los detalles y siempre pongo todo de mi en mi trabajo."
-            : "I am a fullstack developer with experience in React and Node. I'm good at CSS and HTML, as well as JavaScript. I love learning and experimenting with new technologies. I have a good eye for details and always put my all into my work."}
+            ? "Desarrollador Fullstack apasionado por React y Node. Me encanta aprender y experimentar con nuevas tecnologías, y tengo un gran ojo para los detalles. Siempre pongo todo de mí en mi trabajo para ofrecer resultados de alta calidad."
+            : "Full stack developer passionate about React and Node. I love learning and experimenting with new technologies, and I have a great eye for detail. I always put my all into my work to deliver high quality results."}
         </Box>
       </Box>
       <Box
