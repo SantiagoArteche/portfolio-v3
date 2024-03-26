@@ -61,7 +61,7 @@ export const AboutMe = ({ language }) => {
             lg: "url(https://res.cloudinary.com/santiago-arteche/image/upload/v1711425428/PorfolioImg/cvImage_1_uwckvk.webp)",
           },
           height: "100%",
-          left: { xs: "", md: "44%", lg: "50%", xl: "52.5%" },
+          left: { xs: "", md: "45.7%", lg: "50%", xl: "52.5%" },
           width: 300,
           position: "absolute",
           backgroundRepeat: "no-repeat",
