@@ -305,15 +305,14 @@ export const ProjectsPagePresentational = ({
                         sx={{
                           fontSize: {
                             xs: "1.5rem",
-                            sm: "1.2rem",
-                            md: "1.5rem",
+
                             lg: "1.8rem",
                           },
                           display: "flex",
                           flexDirection: "row",
                           justifyContent: "center",
                           alignItems: "center",
-                          gap: { xs: 0, sm: 3 },
+                          gap: 5,
                         }}
                       >
                         <Box
@@ -515,15 +514,14 @@ export const ProjectsPagePresentational = ({
                         sx={{
                           fontSize: {
                             xs: "1.5rem",
-                            sm: "1.2rem",
-                            md: "1.5rem",
+
                             lg: "1.8rem",
                           },
                           display: "flex",
                           flexDirection: "row",
                           justifyContent: "center",
                           alignItems: "center",
-                          gap: { xs: 0, sm: 3 },
+                          gap: 5,
                         }}
                       >
                         <Box
@@ -719,15 +717,13 @@ export const ProjectsPagePresentational = ({
                         sx={{
                           fontSize: {
                             xs: "1.5rem",
-                            sm: "1.2rem",
-                            md: "1.5rem",
                             lg: "1.8rem",
                           },
                           display: "flex",
                           flexDirection: "row",
                           justifyContent: "center",
                           alignItems: "center",
-                          gap: { xs: 0, sm: 3 },
+                          gap: 5,
                         }}
                       >
                         <Box
@@ -752,7 +748,7 @@ export const ProjectsPagePresentational = ({
                             flexDirection: "column",
                             justifyContent: "center",
                             alignItems: "center",
-                            gap: { xs: 4, sm: 3 },
+                            gap: 3,
                           }}
                         >
                           <Box>PostgreSQL</Box>
@@ -924,15 +920,14 @@ export const ProjectsPagePresentational = ({
                         sx={{
                           fontSize: {
                             xs: "1.5rem",
-                            sm: "1.2rem",
-                            md: "1.5rem",
+
                             lg: "1.8rem",
                           },
                           display: "flex",
                           flexDirection: "row",
                           justifyContent: "center",
                           alignItems: "center",
-                          gap: { xs: 0, sm: 3 },
+                          gap: 5,
                         }}
                       >
                         <Box
@@ -1116,15 +1111,14 @@ export const ProjectsPagePresentational = ({
                         sx={{
                           fontSize: {
                             xs: "1.5rem",
-                            sm: "1.2rem",
-                            md: "1.5rem",
+
                             lg: "1.8rem",
                           },
                           display: "flex",
                           flexDirection: "row",
                           justifyContent: "center",
                           alignItems: "center",
-                          gap: { xs: 0, sm: 3 },
+                          gap: 5,
                         }}
                       >
                         <Box
@@ -1316,15 +1310,14 @@ export const ProjectsPagePresentational = ({
                         sx={{
                           fontSize: {
                             xs: "1.5rem",
-                            sm: "1.2rem",
-                            md: "1.5rem",
+
                             lg: "1.8rem",
                           },
                           display: "flex",
                           flexDirection: "row",
                           justifyContent: "center",
                           alignItems: "center",
-                          gap: { xs: 0, sm: 3 },
+                          gap: { xs: 0, sm: 5 },
                         }}
                       >
                         <Box
@@ -1635,15 +1628,14 @@ export const ProjectsPagePresentational = ({
                         sx={{
                           fontSize: {
                             xs: "1.5rem",
-                            sm: "1.2rem",
-                            md: "1.5rem",
+
                             lg: "1.8rem",
                           },
                           display: "flex",
                           flexDirection: "row",
                           justifyContent: "center",
                           alignItems: "center",
-                          gap: { xs: 0, sm: 3 },
+                          gap: 5,
                         }}
                       >
                         <Box
@@ -1843,15 +1835,14 @@ export const ProjectsPagePresentational = ({
                         sx={{
                           fontSize: {
                             xs: "1.5rem",
-                            sm: "1.2rem",
-                            md: "1.5rem",
+
                             lg: "1.8rem",
                           },
                           display: "flex",
                           flexDirection: "row",
                           justifyContent: "center",
                           alignItems: "center",
-                          gap: { xs: 0, sm: 3 },
+                          gap: 5,
                         }}
                       >
                         <Box
