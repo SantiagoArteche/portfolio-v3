@@ -9,12 +9,14 @@ export const DarkMode = () => {
 
   return (
     <Box
+      component="button"
       sx={{
         gridArea: "darkMode",
         bgcolor: "#5f54c78a",
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
+        border: "none",
         borderRadius: 3,
         cursor: "pointer",
         ":hover": {

@@ -5,12 +5,15 @@ export const Language = () => {
   const { language, changeLanguage } = useContext(LanguageContext);
   return (
     <Box
+      component="button"
       sx={{
         gridArea: "language",
+        border: "none",
         bgcolor: "#161c908a",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
+        fontFamily: "inherit",
         justifyContent: "space-around",
         borderRadius: 3,
         color: "white",
