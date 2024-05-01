@@ -53,26 +53,6 @@ export const AboutMe = ({ language }) => {
             : "Full stack developer passionate about React and Node. I love learning and experimenting with new technologies, and I have a great eye for detail. I always put my all into my work to deliver high quality results."}
         </Box>
       </Box>
-      <Box
-        sx={{
-          backgroundImage: {
-            xs: "",
-            md: "url(https://res.cloudinary.com/santiago-arteche/image/upload/v1711425730/PorfolioImg/cvImageBcLOUD_etgmgs.webp)",
-            lg: "url(https://res.cloudinary.com/santiago-arteche/image/upload/v1711425428/PorfolioImg/cvImage_1_uwckvk.webp)",
-          },
-          height: "100%",
-          left: { xs: "", md: "49.7%", lg: "50%", xl: "52.5%" },
-          width: { md: 230, lg: 300 },
-          position: "absolute",
-          backgroundRepeat: "no-repeat",
-          bottom: { xs: "", md: "27.6%", lg: "33.3%", xl: "32.8%" },
-          backgroundPosition: "37%",
-          borderBottomRightRadius: "100%",
-          borderBottomLeftRadius: "10%",
-          border: "none",
-          outline: "none",
-        }}
-      />
     </Box>
   );
 };
