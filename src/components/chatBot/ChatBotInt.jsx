@@ -3,9 +3,8 @@ import HighlightOffIcon from "@mui/icons-material/HighlightOff";
 import SendIcon from "@mui/icons-material/Send";
 import { useFormik } from "formik";
 import { useState, useContext } from "react";
-import { ChatBotContext } from "../../Context/ChatBotContext";
+import { ChatBotContext, LanguageContext } from "../../Context";
 import { ChatBotIntPresentational } from "./ChatBotIntPresentational";
-import { LanguageContext } from "../../Context/LanguageContext";
 
 export const ChatBotInt = () => {
   const [message, setMessage] = useState("");

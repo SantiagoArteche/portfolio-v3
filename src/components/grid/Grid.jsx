@@ -1,8 +1,7 @@
 import { Box } from "@mui/material";
 import { useContext } from "react";
 import { AboutMe } from "../aboutMe/AboutMe";
-import { LanguageContext } from "../../Context/LanguageContext";
-import { DarkModeContext } from "../../Context/DarkModeContext";
+import { DarkModeContext, LanguageContext } from "../../Context";
 import { Language } from "../language/Language";
 import { DarkMode } from "../darkMode/DarkMode";
 import { Age } from "../age/Age";
@@ -15,9 +14,8 @@ import { Mail } from "../mail/Mail";
 import { Weather } from "../weather/Weather";
 import { EnglishLevel } from "../englishLevel/EnglishLevel";
 import { Certificate } from "../certificate/Certificate";
-import { ChatBot } from "../chatBot/ChatBot";
 import { Cv } from "../cv/Cv";
-import { ChatBotInt } from "../chatBot/ChatBotInt";
+import { ChatBotInt, ChatBot } from "../chatBot";
 import "animate.css";
 
 export const Grid = () => {

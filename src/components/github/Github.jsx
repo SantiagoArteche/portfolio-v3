@@ -1,14 +1,14 @@
 import { Box } from "@mui/material";
 import { useContext } from "react";
 import { FaExternalLinkAlt } from "react-icons/fa";
-import { DarkModeContext } from "../../Context/DarkModeContext";
+import { DarkModeContext } from "../../Context";
 export const Github = () => {
   const { darkMode } = useContext(DarkModeContext);
   return (
     <Box
       component={"a"}
       href="https://github.com/SantiagoArteche"
-      target="blink"
+      target="_blank"
       sx={{
         gridArea: "github",
         backgroundImage:

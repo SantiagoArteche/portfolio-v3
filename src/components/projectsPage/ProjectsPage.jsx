@@ -1,6 +1,5 @@
 import { useContext, useState } from "react";
-import { DarkModeContext } from "../../Context/DarkModeContext";
-import { LanguageContext } from "../../Context/LanguageContext";
+import { DarkModeContext, LanguageContext } from "../../Context/";
 import { ProjectsPagePresentational } from "./ProjectsPagePresentational";
 
 export const ProjectsPage = () => {

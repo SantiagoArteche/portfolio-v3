@@ -5,7 +5,7 @@ export const EnglishLevel = ({ language }) => {
     <Box
       component={"a"}
       href="https://www.efset.org/cert/biWFFB"
-      target="blink"
+      target="_blank"
       sx={{
         gridArea: "englishLevel",
         bgcolor: "#7b94fa8a",
@@ -48,7 +48,7 @@ export const EnglishLevel = ({ language }) => {
           }}
           fontWeight={"bold"}
         >
-          C1
+          C2
         </Box>
         <Box
           sx={{

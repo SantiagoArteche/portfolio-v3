@@ -7,7 +7,7 @@ export const Whatsapp = () => {
     <Box
       component={"a"}
       href="https://wa.me/3413650110"
-      target="blink"
+      target="_blank"
       sx={{
         gridArea: "wa",
         bgcolor: "#0cd473",

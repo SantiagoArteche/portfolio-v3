@@ -5,7 +5,7 @@ export const Certificate = ({ language }) => {
     <Box
       component={"a"}
       href="https://www.coderhouse.com/ar/certificados/65d0e50a43a4672c7f43f81c?lang="
-      target="blink"
+      target="_blank"
       sx={{
         gridArea: "certificate",
         bgcolor: "#5f54c78a",
