@@ -52,7 +52,7 @@ export const Tech = () => {
       <IoLogoNodejs color="green" />
       <SiExpress color="white" />
       <SiMongodb color="green" />
-      <SiPostgresql color="#699eca" />
+      <SiPostgresql color="rgb(13,110,253)" />
       <FaGitAlt color="#dc3545" />
       <FaGithub color="white" />
     </Box>

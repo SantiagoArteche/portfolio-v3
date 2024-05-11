@@ -20,7 +20,7 @@ export const ProjectsPagePresentational = ({
     <>
       <Box
         sx={{
-          backgroundImage: `linear-gradient(to bottom, rgba(3, 3, 3, 0.62), rgba(3, 3, 3, 0.62)), url(https://res.cloudinary.com/santiago-arteche/image/upload/v1711422274/PorfolioImg/noisy_kievcq.gif);`,
+          backgroundImage: `linear-gradient(to bottom, rgba(3, 3, 3, 0.62), rgba(3, 3, 3, 0.62)), url(/noisy.gif);`,
           height: "100vh",
           width: "100vw",
           position: "fixed",

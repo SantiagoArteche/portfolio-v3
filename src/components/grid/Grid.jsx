@@ -27,7 +27,7 @@ export const Grid = () => {
     <>
       <Box
         sx={{
-          backgroundImage: `linear-gradient(to bottom, rgba(3, 3, 3, 0.62), rgba(3, 3, 3, 0.62)), url(https://res.cloudinary.com/santiago-arteche/image/upload/v1711422274/PorfolioImg/noisy_kievcq.gif);`,
+          backgroundImage: `linear-gradient(to bottom, rgba(3, 3, 3, 0.72), rgba(3, 3, 3, 0.72)), url(/noisy.gif);`,
           height: "130vh",
           width: "130vw",
           position: "fixed",
@@ -103,7 +103,7 @@ export const Grid = () => {
           },
           justifyContent: "center",
         }}
-        className="animate__animated animate__fadeInDownBig animate__slow"
+        className="animate__animated animate__fadeInDown animate__slow"
       >
         <AboutMe language={language} />
         <Language />
