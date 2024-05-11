@@ -20,7 +20,7 @@ export const ProjectsPagePresentational = ({
     <>
       <Box
         sx={{
-          backgroundImage: `linear-gradient(to bottom, rgba(3, 3, 3, 0.72), rgba(3, 3, 3, 0.72)), url(/noisy.gif);`,
+          backgroundImage: `linear-gradient(to bottom, rgba(3, 3, 3, 0.82), rgba(3, 3, 3, 0.82)), url(/noisy.gif);`,
           height: "100vh",
           width: "100vw",
           position: "fixed",
