@@ -13,7 +13,6 @@ export const ProjectsPagePresentational = ({
   am,
   eReact,
   eJs,
-
   handleContentView,
 }) => {
   return (
