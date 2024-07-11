@@ -6,6 +6,7 @@ export const Language = () => {
   return (
     <Box
       component="button"
+      aria-label="language-button"
       sx={{
         gridArea: "language",
         border: "none",

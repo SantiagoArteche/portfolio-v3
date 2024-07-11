@@ -6,6 +6,7 @@ export const Certificate = ({ language }) => {
       component={"a"}
       href="https://www.coderhouse.com/ar/certificados/65d0e50a43a4672c7f43f81c?lang="
       target="_blank"
+      aria-label="certificate-link"
       sx={{
         gridArea: "certificate",
         bgcolor: "#5f54c78a",

@@ -10,6 +10,7 @@ export const DarkMode = () => {
   return (
     <Box
       component="button"
+      aria-label="dark-mode-button"
       sx={{
         gridArea: "darkMode",
         bgcolor: "#5f54c78a",

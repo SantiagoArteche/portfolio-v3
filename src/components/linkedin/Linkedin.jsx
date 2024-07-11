@@ -9,6 +9,7 @@ export const Linkedin = () => {
         component={"a"}
         href="https://www.linkedin.com/in/santiago-arteche/"
         target="_blank"
+        aria-label="linkedin-link"
         sx={{
           gridArea: "linkedin",
           bgcolor: "#40b9ff8a",

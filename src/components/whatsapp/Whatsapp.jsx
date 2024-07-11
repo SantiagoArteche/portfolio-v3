@@ -8,6 +8,7 @@ export const Whatsapp = () => {
       component={"a"}
       href="https://wa.me/3413650110"
       target="_blank"
+      aria-label="wa-link"
       sx={{
         gridArea: "wa",
         bgcolor: "#0cd473",

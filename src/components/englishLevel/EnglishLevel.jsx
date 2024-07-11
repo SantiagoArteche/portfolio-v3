@@ -6,6 +6,7 @@ export const EnglishLevel = ({ language }) => {
       component={"a"}
       href="https://www.efset.org/cert/biWFFB"
       target="_blank"
+      aria-label="english-level-link"
       sx={{
         gridArea: "englishLevel",
         bgcolor: "#7b94fa8a",

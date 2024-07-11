@@ -9,6 +9,7 @@ export const Github = () => {
       component={"a"}
       href="https://github.com/SantiagoArteche"
       target="_blank"
+      aria-label="github-link"
       sx={{
         gridArea: "github",
         backgroundImage:

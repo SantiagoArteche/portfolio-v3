@@ -7,6 +7,7 @@ export const Mail = () => {
       <Box
         component={"a"}
         href="mailto:santiarteche@hotmail.com"
+        aria-label="mail-link"
         sx={{
           gridArea: "mail",
           bgcolor: "#7b94fa8a",
