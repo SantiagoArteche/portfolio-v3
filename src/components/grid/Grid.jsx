@@ -38,7 +38,6 @@ export const Grid = () => {
           pointerEvents: "none",
           zIndex: 1,
         }}
-        alt="noisy-bg"
         rel="preload"
       />
       <Box
