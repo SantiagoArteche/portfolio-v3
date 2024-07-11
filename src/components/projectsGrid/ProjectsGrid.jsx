@@ -7,7 +7,7 @@ export const ProjectsGrid = ({ language }) => {
       component={Link}
       to="/projects"
       sx={{
-        backgroundImage: `url(https://res.cloudinary.com/santiago-arteche/image/upload/v1711422207/PorfolioImg/projectsGiph_du64rj.gif)`,
+        backgroundImage: `url(projectsGiph_du64rj.gif)`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundPosition: "center",

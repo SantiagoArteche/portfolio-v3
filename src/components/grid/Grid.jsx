@@ -26,6 +26,7 @@ export const Grid = () => {
   return (
     <>
       <Box
+        component="img"
         sx={{
           backgroundImage: `linear-gradient(to bottom, rgba(3, 3, 3, 0.82), rgba(3, 3, 3, 0.82)), url(/noisy.gif);`,
           height: "100vh",
@@ -37,8 +38,11 @@ export const Grid = () => {
           pointerEvents: "none",
           zIndex: 1,
         }}
+        alt="noisy-bg"
+        rel="preload"
       />
       <Box
+        component="div"
         sx={{
           backgroundColor: darkMode,
           height: "100vh",
@@ -51,6 +55,7 @@ export const Grid = () => {
         }}
       />
       <Box
+        component="div"
         sx={{
           display: "grid",
 

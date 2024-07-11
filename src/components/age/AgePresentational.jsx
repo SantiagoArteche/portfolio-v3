@@ -1,6 +1,7 @@
 export const AgePresentational = ({ language, Box, age }) => {
   return (
     <Box
+      component="div"
       sx={{
         gridArea: "age",
         bgcolor: "#7b94fa8a",
@@ -12,6 +13,7 @@ export const AgePresentational = ({ language, Box, age }) => {
       }}
     >
       <Box
+        component="div"
         sx={{
           fontSize: {
             xs: "4rem",
@@ -25,6 +27,7 @@ export const AgePresentational = ({ language, Box, age }) => {
         {age}
       </Box>
       <Box
+        component="p"
         sx={{
           fontSize: { xs: "0.8rem", sm: "1.1rem", md: "1.3rem", lg: "1.7rem" },
         }}

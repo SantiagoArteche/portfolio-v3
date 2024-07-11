@@ -32,6 +32,7 @@ export const Certificate = ({ language }) => {
       <Box
         position="absolute"
         textAlign="center"
+        component="p"
         sx={{
           fontSize: { xs: "1.15rem", sm: "1.3rem", md: "1.6rem", lg: "2rem" },
           width: { sm: "180px", md: "380px" },

@@ -3,6 +3,7 @@ import { Box } from "@mui/material";
 export const AboutMe = ({ language }) => {
   return (
     <Box
+      component="div"
       sx={{
         gridArea: "aboutMe",
         bgcolor: "#161c908a",
@@ -13,7 +14,7 @@ export const AboutMe = ({ language }) => {
         padding: 2,
       }}
     >
-      <Box sx={{ color: "white" }}>
+      <Box component="div" sx={{ color: "white" }}>
         <Box
           component={"h1"}
           sx={{
