@@ -23,6 +23,10 @@ git clone https://github.com/SantiagoArteche/portfolio-react.git
 ```
 
 ```
+cd portfolio-react
+```
+
+```
 npm install
 ```
 
