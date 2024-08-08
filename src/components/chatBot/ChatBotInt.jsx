@@ -5,6 +5,11 @@ import { useFormik } from "formik";
 import { useState, useContext } from "react";
 import { ChatBotContext, LanguageContext } from "../../Context";
 import { ChatBotIntPresentational } from "./ChatBotIntPresentational";
+import { GoogleGenerativeAI } from "@google/generative-ai";
+
+const genAI = new GoogleGenerativeAI(import.meta.env.VITE_API_KEY);
+
+const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
 export const ChatBotInt = () => {
   const [message, setMessage] = useState("");
@@ -19,32 +24,24 @@ export const ChatBotInt = () => {
     },
 
     onSubmit: async (datos) => {
-      const API_URL = "https://api.openai.com/v1/chat/completions";
-      const requestOptions = {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: `Bearer ${import.meta.env.VITE_API_KEY}`,
-        },
-        body: JSON.stringify({
-          model: "gpt-3.5-turbo",
-          messages: [{ role: "user", content: `${await datos.prompt}` }],
-        }),
-      };
-
       if (datos.prompt !== "") {
         resetForm();
         setMessageSend(datos.prompt);
         setMessage("");
         setTimeout(() => {
           setThinking(true);
+        }, 400);
+
+        const result = await model.generateContent(datos.prompt);
+        const response = await result.response;
+        const text = response.text();
+
+        setTimeout(() => {
+          setMessage(
+            text.split("**").join("").split("*").join("").split("##").join("")
+          );
+          setThinking(false);
         }, 700);
-        fetch(API_URL, requestOptions)
-          .then((res) => res.json())
-          .then((data) => {
-            setMessage(data.choices[0].message.content);
-            setThinking(false);
-          });
       }
     },
     validateOnChange: false,
