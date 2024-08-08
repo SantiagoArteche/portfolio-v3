@@ -7,10 +7,6 @@ import { ChatBotContext, LanguageContext } from "../../Context";
 import { ChatBotIntPresentational } from "./ChatBotIntPresentational";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-const genAI = new GoogleGenerativeAI(import.meta.env.VITE_API_KEY);
-
-const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
-
 export const ChatBotInt = () => {
   const [message, setMessage] = useState("");
   const [messageSend, setMessageSend] = useState(null);
@@ -24,6 +20,9 @@ export const ChatBotInt = () => {
     },
 
     onSubmit: async (datos) => {
+      const genAI = new GoogleGenerativeAI(import.meta.env.VITE_API_KEY);
+      const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+
       if (datos.prompt !== "") {
         resetForm();
         setMessageSend(datos.prompt);
