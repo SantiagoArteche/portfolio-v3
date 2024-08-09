@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { LanguageContext } from "../../Context";
+import { LanguageContext } from "../../context";
 import { Box } from "@mui/material";
 export const Language = () => {
   const { language, changeLanguage } = useContext(LanguageContext);

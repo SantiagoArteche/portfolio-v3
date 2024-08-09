@@ -2,8 +2,8 @@ import { Box } from "@mui/material";
 import SmartToyIcon from "@mui/icons-material/SmartToy";
 
 import { useContext } from "react";
-import { DarkModeContext } from "../../Context/DarkModeContext";
-import { ChatBotContext } from "../../Context/ChatBotContext";
+import { DarkModeContext } from "../../context/DarkModeContext";
+import { ChatBotContext } from "../../context/ChatBotContext";
 
 export const ChatBot = () => {
   const { darkMode } = useContext(DarkModeContext);

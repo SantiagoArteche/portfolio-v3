@@ -1,7 +1,7 @@
 import { Box } from "@mui/material";
 import { useState, useEffect, useContext } from "react";
 import { WeatherPresentational } from "./WeatherPresentational";
-import { DarkModeContext } from "../../Context";
+import { DarkModeContext } from "../../context";
 export const Weather = () => {
   let time = new Date();
   let hour = time.getHours().toString();
@@ -9,6 +9,7 @@ export const Weather = () => {
   if (hour < 10) hour = `0${hour}`;
   if (minutes < 10) minutes = `0${minutes}`;
   const timer = `${hour}:${minutes}`;
+
   const [weather, setWeather] = useState([]);
   const [degrees, setDegrees] = useState("");
   const [currentTime, setCurrentTime] = useState(timer);
