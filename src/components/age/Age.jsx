@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { AgePresentational } from "./AgePresentational";
 
 export const Age = ({ language }) => {
-  let [age, setAge] = useState(15);
+  let [age, setAge] = useState(16);
 
   useEffect(() => {
     const interval = setInterval(() => {
