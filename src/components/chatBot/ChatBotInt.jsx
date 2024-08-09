@@ -3,7 +3,7 @@ import HighlightOffIcon from "@mui/icons-material/HighlightOff";
 import SendIcon from "@mui/icons-material/Send";
 import { useFormik } from "formik";
 import { useState, useContext } from "react";
-import { ChatBotContext, LanguageContext } from "../../context";
+import { ChatBotContext, LanguageContext } from "../../Context";
 import { ChatBotIntPresentational } from "./ChatBotIntPresentational";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 

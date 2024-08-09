@@ -1,7 +1,7 @@
 import { Box } from "@mui/material";
 import { useContext } from "react";
 import { FaExternalLinkAlt } from "react-icons/fa";
-import { DarkModeContext } from "../../context";
+import { DarkModeContext } from "../../Context";
 export const Github = () => {
   const { darkMode } = useContext(DarkModeContext);
   return (

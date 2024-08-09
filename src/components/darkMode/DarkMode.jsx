@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
 import { useContext } from "react";
-import { DarkModeContext } from "../../context/DarkModeContext";
+import { DarkModeContext } from "../../Context/DarkModeContext";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { MdSunny } from "react-icons/md";
 

@@ -1,7 +1,7 @@
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import { Grid } from "./components/grid/Grid";
 import { ProjectsPage } from "./components/projectsPage/ProjectsPage";
-import { GeneralProvider } from "./context/GeneralProvider";
+import { GeneralProvider } from "./Context/GeneralProvider";
 function App() {
   return (
     <BrowserRouter>

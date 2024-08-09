@@ -1,7 +1,7 @@
 import { Box } from "@mui/material";
 import { useContext } from "react";
 import { AboutMe } from "../aboutMe/AboutMe";
-import { DarkModeContext, LanguageContext } from "../../context";
+import { DarkModeContext, LanguageContext } from "../../Context";
 import { Language } from "../language/Language";
 import { DarkMode } from "../darkMode/DarkMode";
 import { Age } from "../age/Age";

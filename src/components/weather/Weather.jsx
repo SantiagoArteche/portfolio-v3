@@ -1,7 +1,7 @@
 import { Box } from "@mui/material";
 import { useState, useEffect, useContext } from "react";
 import { WeatherPresentational } from "./WeatherPresentational";
-import { DarkModeContext } from "../../context";
+import { DarkModeContext } from "../../Context";
 export const Weather = () => {
   let time = new Date();
   let hour = time.getHours().toString();
