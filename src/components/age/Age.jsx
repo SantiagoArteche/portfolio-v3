@@ -7,7 +7,7 @@ export const Age = ({ language }) => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      if (age < 25) {
+      if (age < 26) {
         age++;
         setAge(age);
       } else {
