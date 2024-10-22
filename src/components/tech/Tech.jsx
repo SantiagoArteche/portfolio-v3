@@ -1,19 +1,18 @@
 import { Box } from "@mui/material";
 import { IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
 import { IoLogoReact, IoLogoNodejs } from "react-icons/io5";
-import { FaGitAlt, FaGithub } from "react-icons/fa";
+import { FaGitAlt, FaGithub, FaJava } from "react-icons/fa";
 import { BsBootstrapFill } from "react-icons/bs";
 import {
   SiJavascript,
   SiMongodb,
-  SiMui,
+  SiSpring,
   SiExpress,
   SiTailwindcss,
   SiTypescript,
   SiNextdotjs,
   SiPostgresql,
 } from "react-icons/si";
-import { TbBrandRedux } from "react-icons/tb";
 
 export const Tech = () => {
   return (
@@ -45,10 +44,10 @@ export const Tech = () => {
       <SiTailwindcss color="rgb(13,202,240)" />
       <SiJavascript color="yellow" />
       <SiTypescript color="rgb(13,110,253)" />
+      <FaJava color="#1e88e5" />
       <IoLogoReact color="rgb(13,202,240)" />
       <SiNextdotjs color="black" />
-      <SiMui color="#1e88e5" />
-      <TbBrandRedux color="#533484" />
+      <SiSpring color="green" />
       <IoLogoNodejs color="green" />
       <SiExpress color="white" />
       <SiMongodb color="green" />
