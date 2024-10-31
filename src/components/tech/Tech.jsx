@@ -14,6 +14,7 @@ import {
   SiPostgresql,
 } from "react-icons/si";
 
+
 export const Tech = () => {
   return (
     <Box
