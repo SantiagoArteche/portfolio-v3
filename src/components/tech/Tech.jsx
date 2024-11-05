@@ -10,10 +10,9 @@ import {
   SiExpress,
   SiTailwindcss,
   SiTypescript,
-  SiNextdotjs,
   SiPostgresql,
+  SiPython,
 } from "react-icons/si";
-
 
 export const Tech = () => {
   return (
@@ -46,8 +45,8 @@ export const Tech = () => {
       <SiJavascript color="yellow" />
       <SiTypescript color="rgb(13,110,253)" />
       <FaJava color="#1e88e5" />
+      <SiPython color="#3776ab" />
       <IoLogoReact color="rgb(13,202,240)" />
-      <SiNextdotjs color="black" />
       <SiSpring color="green" />
       <IoLogoNodejs color="green" />
       <SiExpress color="white" />
