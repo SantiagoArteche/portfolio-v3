@@ -358,7 +358,8 @@ export const ProjectsPagePresentational = ({
             <Box
               sx={{
                 gridArea: "asociacion",
-                backgroundImage: "url(asoc.png)",
+                background:
+                  "url(https://res.cloudinary.com/ditn1bem1/image/upload/v1733437832/Nueva_pesta%C3%B1a_de_Inc%C3%B3gnito_-_Google_Chrome_12_5_2024_7_15_26_PM_r0jzjo.png)",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
