@@ -358,8 +358,7 @@ export const ProjectsPagePresentational = ({
             <Box
               sx={{
                 gridArea: "asociacion",
-                background:
-                  "url(https://res.cloudinary.com/santiago-arteche/image/upload/v1704951010/Asociaci%C3%B3n_Suipacha_-_Google_Chr_z9kx35.webp)",
+                background: "url(/asoc.png)",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
