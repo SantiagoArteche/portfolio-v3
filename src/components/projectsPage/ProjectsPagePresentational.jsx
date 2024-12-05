@@ -358,7 +358,7 @@ export const ProjectsPagePresentational = ({
             <Box
               sx={{
                 gridArea: "asociacion",
-                background: "url(/asoc.png)",
+                backgroundImage: "url(asoc.png)",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
