@@ -138,9 +138,9 @@ export const ProjectsPagePresentational = ({
              `,
 
                 md: `"tesla tesla tesla calendar calendar calendar "
-            "journal journal journal asociacion asociacion asociacion "
-            "heroes heroes heroes amInd amInd amInd"
-            "ecomReact ecomReact ecomReact gifApp gifApp gifApp"`,
+            "ecomReact ecomReact ecomReact asociacion asociacion asociacion "
+            "journal journal journal amInd amInd amInd"
+            "heroes heroes heroes gifApp gifApp gifApp"`,
               },
               gap: { xs: 5, md: 7, lg: 8.5, xl: 9 },
               justifyContent: "center",
@@ -150,22 +150,26 @@ export const ProjectsPagePresentational = ({
               sx={{
                 gridArea: "ecomReact",
                 background:
-                  "url(https://res.cloudinary.com/santiago-arteche/image/upload/v1704950720/OffStore_-_Google_Chrome_11_1_20_siypls.webp)",
+                  "url(https://res.cloudinary.com/ditn1bem1/image/upload/v1742683506/Captures_-_File_Explorer_3_22_2025_7_43_42_PM_fcbaxc.png)",
                 backgroundRepeat: "no-repeat",
-                backgroundSize: { xs: "210% 100%", xl: "cover" },
-                backgroundPosition: "center",
+                backgroundSize: {
+                  xs: "200% 100%",
+                  md: "cover",
+                  xl: "cover",
+                },
+
                 borderRadius: 4,
                 cursor: "pointer",
-                objectFit: "cover",
+                textDecoration: "none",
                 border:
                   darkMode === "black" ? "2px solid white" : "2px solid black",
-                textDecoration: "none",
                 ":hover": {
                   background: "#161c908a",
                   transition: "1s",
                   ".eReact": {
                     display: "flex",
                     flexDirection: "column",
+                    height: "100%",
                   },
                 },
               }}
@@ -210,7 +214,6 @@ export const ProjectsPagePresentational = ({
                       })
                     }
                     sx={{
-                      display: eReact != "none" ? "none" : "flex",
                       color: "white",
                       textDecoration: "none",
                       justifyContent: "center",
@@ -219,6 +222,7 @@ export const ProjectsPagePresentational = ({
                       ":hover": {
                         color: darkMode === "black" ? "gray" : "black",
                       },
+                      display: eReact != "none" ? "none" : "flex",
                     }}
                   >
                     <Box>
@@ -227,29 +231,38 @@ export const ProjectsPagePresentational = ({
                     <ArrowForward sx={{ fontSize: 37 }} />
                   </Box>
                   <Box
-                    component="a"
-                    href="https://github.com/SantiagoArteche/ecommerce-react-js"
-                    target="blink"
+                    onClick={() =>
+                      handleContentView({
+                        calendar: "none",
+                        journal: "none",
+                        asoc: "none",
+                        gif: "none",
+                        heroes: "none",
+                        am: "none",
+                        eReact: "repo",
+                        eJs: "none",
+                      })
+                    }
                     sx={{
+                      ":hover": {
+                        color: darkMode === "black" ? "gray" : "black",
+                      },
                       display: eReact != "none" ? "none" : "flex",
                       color: "white",
                       textDecoration: "none",
                       justifyContent: "center",
                       alignItems: "center",
                       gap: 1,
-                      ":hover": {
-                        color: darkMode === "black" ? "gray" : "black",
-                      },
                     }}
                   >
                     <Box>
-                      {language === "ES" ? "Repositorio" : "Repository"}
+                      {language === "ES" ? "Repositorios" : "Repositories"}
                     </Box>
-                    <ArrowOutward sx={{ fontSize: 37 }} />
+                    <ArrowForward sx={{ fontSize: 37 }} />
                   </Box>
                   <Box
                     component="a"
-                    href="https://ecommerce-react-js-arteche.vercel.app"
+                    href="https://ober-front.vercel.app"
                     target="blink"
                     sx={{
                       display: eReact != "none" ? "none" : "flex",
@@ -267,7 +280,7 @@ export const ProjectsPagePresentational = ({
                     <ArrowOutward sx={{ fontSize: 37 }} />
                   </Box>
                 </Box>
-                {eReact === "tech" && (
+                {eReact === "tech" ? (
                   <>
                     <ArrowBack
                       sx={{
@@ -311,7 +324,7 @@ export const ProjectsPagePresentational = ({
                           flexDirection: "row",
                           justifyContent: "center",
                           alignItems: "center",
-                          gap: 5,
+                          gap: { xs: 0, sm: 5 },
                         }}
                       >
                         <Box
@@ -323,18 +336,10 @@ export const ProjectsPagePresentational = ({
                             gap: 3,
                           }}
                         >
-                          <Box>React Js</Box>
-                          <Box>Bootstrap</Box>
-                          <Box
-                            sx={{
-                              width: {
-                                xs: 150,
-                                sm: "100%",
-                              },
-                            }}
-                          >
-                            React Router Dom
-                          </Box>
+                          <Box>TypeScript</Box>
+                          <Box>Angular</Box>
+                          <Box>Tailwind</Box>
+                          <Box>Node Js</Box>
                         </Box>
                         <Box
                           sx={{
@@ -342,16 +347,118 @@ export const ProjectsPagePresentational = ({
                             flexDirection: "column",
                             justifyContent: "center",
                             alignItems: "center",
-                            gap: 3,
+                            gap: { xs: 4, sm: 3 },
                           }}
                         >
-                          <Box>Formik</Box>
-                          <Box>Yup</Box>
-                          <Box>Firebase</Box>
+                          <Box>Express</Box>
+                          <Box>MongoDB</Box>
+                          <Box sx={{ width: { xs: 200, sm: "100%" } }}>
+                            Json Web Token
+                          </Box>
+                          <Box>Bcrypt</Box>
                         </Box>
                       </Box>
                     </Box>
                   </>
+                ) : (
+                  eReact === "repo" && (
+                    <>
+                      <ArrowBack
+                        sx={{
+                          position: "relative",
+                          bottom: { xs: "52.4%", sm: "50%" },
+                          right: "49%",
+                          fontSize: { xs: 40, sm: 45 },
+                          ":hover": {
+                            color: darkMode === "black" ? "gray" : "black",
+                          },
+                        }}
+                        onClick={() =>
+                          handleContentView({
+                            calendar: "none",
+                            journal: "none",
+                            asoc: "none",
+                            gif: "none",
+                            heroes: "none",
+                            am: "none",
+                            eReact: "none",
+                            eJs: "none",
+                          })
+                        }
+                      />
+                      <Box
+                        sx={{
+                          position: "absolute",
+                          display: "flex",
+                          flexDirection: "column",
+                        }}
+                      >
+                        <Box
+                          component="a"
+                          href="https://github.com/SantiagoArteche/ober-front"
+                          target="blink"
+                          sx={{
+                            fontSize: {
+                              xs: "2rem",
+                              sm: "2.2rem",
+                              md: "2.3rem",
+                              lg: "2.3rem",
+                            },
+                            width: { xs: 300, xl: "100%" },
+                            display: "flex",
+                            flexWrap: "wrap",
+                            textDecoration: "none",
+                            color: "white",
+                            ":hover": {
+                              color: darkMode === "black" ? "gray" : "black",
+                            },
+                            gap: 1,
+                            justifyContent: "center",
+                            alignItems: "center",
+                          }}
+                        >
+                          <Box>
+                            {language === "ES"
+                              ? "Ober Frontend"
+                              : "Frontend Ober"}
+                          </Box>
+                          <ArrowOutward sx={{ fontSize: 37 }} />
+                        </Box>
+                        <Box
+                          component="a"
+                          href="https://github.com/SantiagoArteche/ober-api"
+                          target="blink"
+                          sx={{
+                            fontSize: {
+                              xs: "2rem",
+                              sm: "2.2rem",
+                              md: "2.3rem",
+                              lg: "2.3rem",
+                            },
+                            width: { xs: 300, xl: "100%" },
+                            display: "flex",
+                            flexWrap: "wrap",
+                            textDecoration: "none",
+                            color: "white",
+                            ":hover": {
+                              color: darkMode === "black" ? "gray" : "black",
+                            },
+                            gap: 1,
+                            justifyContent: "center",
+                            alignItems: "center",
+                            marginTop: 5,
+                          }}
+                        >
+                          <Box>
+                            {language === "ES"
+                              ? "Ober Backend"
+                              : "Backend Ober"}
+                          </Box>
+                          <ArrowOutward sx={{ fontSize: 37 }} />
+                        </Box>
+                      </Box>
+                    </>
+                  )
                 )}
               </Box>
             </Box>
