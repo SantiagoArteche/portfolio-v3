@@ -11,7 +11,7 @@ import {
   SiTailwindcss,
   SiTypescript,
   SiPostgresql,
-  SiPython,
+  SiAngular,
 } from "react-icons/si";
 
 export const Tech = () => {
@@ -44,9 +44,9 @@ export const Tech = () => {
       <SiTailwindcss color="rgb(13,202,240)" />
       <SiJavascript color="yellow" />
       <SiTypescript color="rgb(13,110,253)" />
-      <FaJava color="#1e88e5" />
-      <SiPython color="#3776ab" />
       <IoLogoReact color="rgb(13,202,240)" />
+      <SiAngular color="rgb(190, 29, 29)" />
+      <FaJava color="#1e88e5" />
       <SiSpring color="green" />
       <IoLogoNodejs color="green" />
       <SiExpress color="white" />

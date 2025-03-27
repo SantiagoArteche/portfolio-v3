@@ -129,14 +129,13 @@ export const ProjectsPagePresentational = ({
               gridTemplateAreas: {
                 xs: ` "tesla tesla tesla"
                 "calendar calendar calendar"
+                "ecomReact ecomReact ecomReact"
+                "asociacion asociacion asociacion"
               "journal journal journal"
-              "asociacion asociacion asociacion"
-              "gifApp gifApp gifApp"
-              "heroes heroes heroes"
               "amInd amInd amInd"
-              "ecomReact ecomReact ecomReact"
+              "heroes heroes heroes"
+              "gifApp gifApp gifApp"
              `,
-
                 md: `"tesla tesla tesla calendar calendar calendar "
             "ecomReact ecomReact ecomReact asociacion asociacion asociacion "
             "journal journal journal amInd amInd amInd"
@@ -644,7 +643,6 @@ export const ProjectsPagePresentational = ({
                           <Box sx={{ width: { xs: 150, sm: "100%" } }}>
                             React Router Dom
                           </Box>
-                          <Box>Formik</Box>
                         </Box>
                         <Box
                           sx={{
@@ -655,7 +653,6 @@ export const ProjectsPagePresentational = ({
                             gap: 3,
                           }}
                         >
-                          <Box>Yup</Box>
                           <Box>Node Js</Box>
                           <Box>Express</Box>
                           <Box>MongoDB</Box>
@@ -843,10 +840,8 @@ export const ProjectsPagePresentational = ({
                         >
                           <Box>TypeScript</Box>
                           <Box>Tailwind</Box>
-
-                          <Box>Formik</Box>
-                          <Box>Yup</Box>
-                          <Box>Node Js</Box>
+                          <Box>Next Js</Box>
+                          <Box>Next Auth</Box>
                         </Box>
                         <Box
                           sx={{
@@ -857,11 +852,10 @@ export const ProjectsPagePresentational = ({
                             gap: 3,
                           }}
                         >
+                          <Box>Zustand</Box>
+                          <Box>Node Js</Box>
                           <Box>PostgreSQL</Box>
                           <Box>Prisma</Box>
-                          <Box>Zustand</Box>
-                          <Box>Next Js</Box>
-                          <Box>Next Auth</Box>
                         </Box>
                       </Box>
                     </Box>
@@ -1047,7 +1041,6 @@ export const ProjectsPagePresentational = ({
                         >
                           <Box>React Js</Box>
                           <Box>MaterialUI</Box>
-                          <Box>Formik</Box>
                         </Box>
                       </Box>
                     </Box>
@@ -1447,8 +1440,7 @@ export const ProjectsPagePresentational = ({
                           >
                             React Router Dom
                           </Box>
-                          <Box>Formik</Box>
-                          <Box>Yup</Box>
+                          <Box>Redux</Box>
                         </Box>
                         <Box
                           sx={{
@@ -1459,7 +1451,6 @@ export const ProjectsPagePresentational = ({
                             gap: { xs: 4, sm: 3 },
                           }}
                         >
-                          <Box>Redux</Box>
                           <Box>Node Js</Box>
                           <Box>Express</Box>
                           <Box>MongoDB</Box>
@@ -1758,7 +1749,6 @@ export const ProjectsPagePresentational = ({
                           <Box sx={{ width: { xs: 150, sm: "100%" } }}>
                             React Router Dom
                           </Box>
-                          <Box>Formik</Box>
                         </Box>
                         <Box
                           sx={{
@@ -1769,8 +1759,6 @@ export const ProjectsPagePresentational = ({
                             gap: 3,
                           }}
                         >
-                          {" "}
-                          <Box>Yup</Box>
                           <Box>Redux</Box>
                           <Box>Firebase</Box>
                           <Box>FirebaseAuth</Box>
@@ -1965,7 +1953,6 @@ export const ProjectsPagePresentational = ({
                           <Box sx={{ width: { xs: 150, sm: "100%" } }}>
                             React Router Dom
                           </Box>
-                          <Box>Formik</Box>
                         </Box>
                       </Box>
                     </Box>
