@@ -12,6 +12,8 @@ import {
   SiTypescript,
   SiPostgresql,
   SiAngular,
+  SiDocker,
+  SiMysql,
 } from "react-icons/si";
 
 export const Tech = () => {
@@ -38,20 +40,20 @@ export const Tech = () => {
         flexWrap: "wrap",
       }}
     >
-      <IoLogoHtml5 color="#dc3545" />
-      <IoLogoCss3 color="rgb(13,110,253)" />
       <BsBootstrapFill color="#9461fb" />
       <SiTailwindcss color="rgb(13,202,240)" />
       <SiJavascript color="yellow" />
       <SiTypescript color="rgb(13,110,253)" />
+      <FaJava color="#1e88e5" />
       <IoLogoReact color="rgb(13,202,240)" />
       <SiAngular color="rgb(190, 29, 29)" />
-      <FaJava color="#1e88e5" />
       <SiSpring color="green" />
       <IoLogoNodejs color="green" />
       <SiExpress color="white" />
+      <SiMysql color="white" />
       <SiMongodb color="green" />
       <SiPostgresql color="rgb(13,110,253)" />
+      <SiDocker color="rgb(13,110,253)" />
       <FaGitAlt color="#dc3545" />
       <FaGithub color="white" />
     </Box>
