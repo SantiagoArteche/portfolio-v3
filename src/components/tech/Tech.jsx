@@ -1,5 +1,4 @@
 import { Box } from "@mui/material";
-import { IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
 import { IoLogoReact, IoLogoNodejs } from "react-icons/io5";
 import { FaGitAlt, FaGithub, FaJava } from "react-icons/fa";
 import { BsBootstrapFill } from "react-icons/bs";

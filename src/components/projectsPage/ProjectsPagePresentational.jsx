@@ -11,7 +11,7 @@ export const ProjectsPagePresentational = ({
   gif,
   heroes,
   am,
-  eReact,
+  ober,
   eJs,
   handleContentView,
 }) => {
@@ -129,7 +129,7 @@ export const ProjectsPagePresentational = ({
               gridTemplateAreas: {
                 xs: ` "tesla tesla tesla"
                 "calendar calendar calendar"
-                "ecomReact ecomReact ecomReact"
+                "ober ober ober"
                 "asociacion asociacion asociacion"
               "journal journal journal"
               "amInd amInd amInd"
@@ -137,7 +137,7 @@ export const ProjectsPagePresentational = ({
               "gifApp gifApp gifApp"
              `,
                 md: `"tesla tesla tesla calendar calendar calendar "
-            "ecomReact ecomReact ecomReact asociacion asociacion asociacion "
+            "ober ober ober asociacion asociacion asociacion "
             "journal journal journal amInd amInd amInd"
             "heroes heroes heroes gifApp gifApp gifApp"`,
               },
@@ -147,7 +147,7 @@ export const ProjectsPagePresentational = ({
           >
             <Box
               sx={{
-                gridArea: "ecomReact",
+                gridArea: "ober",
                 background:
                   "url(https://res.cloudinary.com/ditn1bem1/image/upload/v1742683506/Captures_-_File_Explorer_3_22_2025_7_43_42_PM_fcbaxc.png)",
                 backgroundRepeat: "no-repeat",
@@ -156,7 +156,6 @@ export const ProjectsPagePresentational = ({
                   md: "cover",
                   xl: "cover",
                 },
-
                 borderRadius: 4,
                 cursor: "pointer",
                 textDecoration: "none",
@@ -165,7 +164,7 @@ export const ProjectsPagePresentational = ({
                 ":hover": {
                   background: "#161c908a",
                   transition: "1s",
-                  ".eReact": {
+                  ".ober": {
                     display: "flex",
                     flexDirection: "column",
                     height: "100%",
@@ -184,7 +183,7 @@ export const ProjectsPagePresentational = ({
                   textAlign: "center",
                   gap: 2,
                 }}
-                className="eReact"
+                className="ober"
               >
                 <Box
                   sx={{
@@ -208,7 +207,7 @@ export const ProjectsPagePresentational = ({
                         gif: "none",
                         heroes: "none",
                         am: "none",
-                        eReact: "tech",
+                        ober: "tech",
                         eJs: "none",
                       })
                     }
@@ -221,7 +220,7 @@ export const ProjectsPagePresentational = ({
                       ":hover": {
                         color: darkMode === "black" ? "gray" : "black",
                       },
-                      display: eReact != "none" ? "none" : "flex",
+                      display: ober != "none" ? "none" : "flex",
                     }}
                   >
                     <Box>
@@ -238,7 +237,7 @@ export const ProjectsPagePresentational = ({
                         gif: "none",
                         heroes: "none",
                         am: "none",
-                        eReact: "repo",
+                        ober: "repo",
                         eJs: "none",
                       })
                     }
@@ -246,7 +245,7 @@ export const ProjectsPagePresentational = ({
                       ":hover": {
                         color: darkMode === "black" ? "gray" : "black",
                       },
-                      display: eReact != "none" ? "none" : "flex",
+                      display: ober != "none" ? "none" : "flex",
                       color: "white",
                       textDecoration: "none",
                       justifyContent: "center",
@@ -264,7 +263,7 @@ export const ProjectsPagePresentational = ({
                     href="https://ober-front.vercel.app"
                     target="blink"
                     sx={{
-                      display: eReact != "none" ? "none" : "flex",
+                      display: ober != "none" ? "none" : "flex",
                       color: "white",
                       textDecoration: "none",
                       justifyContent: "center",
@@ -279,7 +278,7 @@ export const ProjectsPagePresentational = ({
                     <ArrowOutward sx={{ fontSize: 37 }} />
                   </Box>
                 </Box>
-                {eReact === "tech" ? (
+                {ober === "tech" ? (
                   <>
                     <ArrowBack
                       sx={{
@@ -299,7 +298,7 @@ export const ProjectsPagePresentational = ({
                           gif: "none",
                           heroes: "none",
                           am: "none",
-                          eReact: "none",
+                          ober: "none",
                           eJs: "none",
                         })
                       }
@@ -360,7 +359,7 @@ export const ProjectsPagePresentational = ({
                     </Box>
                   </>
                 ) : (
-                  eReact === "repo" && (
+                  ober === "repo" && (
                     <>
                       <ArrowBack
                         sx={{
@@ -380,7 +379,7 @@ export const ProjectsPagePresentational = ({
                             gif: "none",
                             heroes: "none",
                             am: "none",
-                            eReact: "none",
+                            ober: "none",
                             eJs: "none",
                           })
                         }
@@ -520,7 +519,7 @@ export const ProjectsPagePresentational = ({
                         gif: "none",
                         heroes: "none",
                         am: "none",
-                        eReact: "none",
+                        ober: "none",
                         eJs: "none",
                       })
                     }
@@ -602,7 +601,7 @@ export const ProjectsPagePresentational = ({
                           gif: "none",
                           heroes: "none",
                           am: "none",
-                          eReact: "none",
+                          ober: "none",
                           eJs: "none",
                         })
                       }
@@ -721,7 +720,7 @@ export const ProjectsPagePresentational = ({
                         gif: "none",
                         heroes: "none",
                         am: "none",
-                        eReact: "none",
+                        ober: "none",
                         eJs: "tech",
                       })
                     }
@@ -803,7 +802,7 @@ export const ProjectsPagePresentational = ({
                           gif: "none",
                           heroes: "none",
                           am: "none",
-                          eReact: "none",
+                          ober: "none",
                           eJs: "none",
                         })
                       }
@@ -921,7 +920,7 @@ export const ProjectsPagePresentational = ({
                         gif: "tech",
                         heroes: "none",
                         am: "none",
-                        eReact: "none",
+                        ober: "none",
                         eJs: "none",
                       })
                     }
@@ -1003,7 +1002,7 @@ export const ProjectsPagePresentational = ({
                           gif: "none",
                           heroes: "none",
                           am: "none",
-                          eReact: "none",
+                          ober: "none",
                           eJs: "none",
                         })
                       }
@@ -1111,7 +1110,7 @@ export const ProjectsPagePresentational = ({
                         gif: "none",
                         heroes: "none",
                         am: "tech",
-                        eReact: "none",
+                        ober: "none",
                         eJs: "none",
                       })
                     }
@@ -1193,7 +1192,7 @@ export const ProjectsPagePresentational = ({
                           gif: "none",
                           heroes: "none",
                           am: "none",
-                          eReact: "none",
+                          ober: "none",
                           eJs: "none",
                         })
                       }
@@ -1301,7 +1300,7 @@ export const ProjectsPagePresentational = ({
                         gif: "none",
                         heroes: "none",
                         am: "none",
-                        eReact: "none",
+                        ober: "none",
                         eJs: "none",
                       })
                     }
@@ -1331,7 +1330,7 @@ export const ProjectsPagePresentational = ({
                         gif: "none",
                         heroes: "none",
                         am: "none",
-                        eReact: "none",
+                        ober: "none",
                         eJs: "none",
                       })
                     }
@@ -1392,7 +1391,7 @@ export const ProjectsPagePresentational = ({
                           gif: "none",
                           heroes: "none",
                           am: "none",
-                          eReact: "none",
+                          ober: "none",
                           eJs: "none",
                         })
                       }
@@ -1482,7 +1481,7 @@ export const ProjectsPagePresentational = ({
                             gif: "none",
                             heroes: "none",
                             am: "none",
-                            eReact: "none",
+                            ober: "none",
                             eJs: "none",
                           })
                         }
@@ -1626,7 +1625,7 @@ export const ProjectsPagePresentational = ({
                         gif: "none",
                         heroes: "none",
                         am: "none",
-                        eReact: "none",
+                        ober: "none",
                         eJs: "none",
                       })
                     }
@@ -1708,7 +1707,7 @@ export const ProjectsPagePresentational = ({
                           gif: "none",
                           heroes: "none",
                           am: "none",
-                          eReact: "none",
+                          ober: "none",
                           eJs: "none",
                         })
                       }
@@ -1830,7 +1829,7 @@ export const ProjectsPagePresentational = ({
                         gif: "none",
                         heroes: "tech",
                         am: "none",
-                        eReact: "none",
+                        ober: "none",
                         eJs: "none",
                       })
                     }
@@ -1912,7 +1911,7 @@ export const ProjectsPagePresentational = ({
                           gif: "none",
                           heroes: "none",
                           am: "none",
-                          eReact: "none",
+                          ober: "none",
                           eJs: "none",
                         })
                       }
