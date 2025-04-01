@@ -4,7 +4,7 @@ export const Certificate = ({ language }) => {
   return (
     <Box
       component={"a"}
-      href="https://www.coderhouse.com/ar/certificados/65d0e50a43a4672c7f43f81c?lang="
+      href="https://pub.coderhouse.com/legacy-certificates/65d0e50a43a4672c7f43f81c?lang=es"
       target="_blank"
       aria-label="certificate-link"
       sx={{
