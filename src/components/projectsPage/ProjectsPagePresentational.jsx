@@ -50,6 +50,7 @@ export const ProjectsPagePresentational = ({
           alignItems: "center",
           marginBottom: 4,
         }}
+        className="animate__animated animate__fadeInRight"
       >
         <Box
           sx={{
