@@ -1,4 +1,4 @@
-import { useContext, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { DarkModeContext, LanguageContext } from "../../Context";
 import { ProjectsPagePresentational } from "./ProjectsPagePresentational";
 
@@ -26,6 +26,12 @@ export const ProjectsPage = () => {
   const handleContentView = (project) => {
     setContentView(project);
   };
+
+  useEffect(() => {
+    if (typeof window !== "undefined" && window.scrollTo) {
+      window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    }
+  }, []);
 
   return (
     <ProjectsPagePresentational

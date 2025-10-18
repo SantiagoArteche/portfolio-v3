@@ -1,7 +1,14 @@
 import { Box } from "@mui/material";
+import { useEffect } from "react";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
 export const ProjectsGrid = ({ language }) => {
+  useEffect(() => {
+    if (typeof window !== "undefined" && window.scrollTo) {
+      window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    }
+  }, []);
+
   return (
     <Box
       component={Link}
