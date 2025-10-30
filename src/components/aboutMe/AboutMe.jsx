@@ -50,7 +50,7 @@ export const AboutMe = ({ language }) => {
           }}
         >
           {language === "ES"
-            ? "Desarrollador Fullstack apasionado por Javascript y Java. Me encanta aprender y experimentar con nuevas tecnologías, y tengo un gran ojo para los detalles. Siempre pongo todo de mí en mi trabajo para ofrecer resultados de alta calidad."
+            ? "Desarrollador Fullstack apasionado por Javascript y Java. Me encanta aprender y experimentar con nuevas tecnologías, y tengo un gran ojo para los detalles. Siempre me esfuerzo al máximo para ofrecer resultados de alta calidad."
             : "Full stack developer passionate about Javascript and Java. I love learning and experimenting with new technologies, and I have a great eye for detail. I always put my all into my work to deliver high quality results."}
         </Box>
       </Box>
