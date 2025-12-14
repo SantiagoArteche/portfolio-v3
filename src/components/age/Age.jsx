@@ -3,13 +3,12 @@ import { useEffect, useState } from "react";
 import { AgePresentational } from "./AgePresentational";
 
 export const Age = ({ language }) => {
-  let [age, setAge] = useState(17);
+  let [age, setAge] = useState(19);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      if (age < 26) {
-        age++;
-        setAge(age);
+      if (age < 27) {
+        setAge(++age);
       } else {
         clearInterval(interval);
       }
