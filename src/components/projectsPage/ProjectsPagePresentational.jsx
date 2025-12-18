@@ -9,7 +9,7 @@ export const ProjectsPagePresentational = ({
   journal,
   asoc,
   gif,
-  heroes,
+  fitness,
   am,
   ober,
   eJs,
@@ -134,13 +134,13 @@ export const ProjectsPagePresentational = ({
                 "asociacion asociacion asociacion"
               "journal journal journal"
               "amInd amInd amInd"
-              "heroes heroes heroes"
+              "fitness fitness fitness"
               "gifApp gifApp gifApp"
              `,
                 md: `"tesla tesla tesla calendar calendar calendar "
             "ober ober ober asociacion asociacion asociacion "
             "journal journal journal amInd amInd amInd"
-            "heroes heroes heroes gifApp gifApp gifApp"`,
+            "fitness fitness fitness gifApp gifApp gifApp"`,
               },
               gap: { xs: 5, md: 7, lg: 8.5, xl: 9 },
               justifyContent: "center",
@@ -206,7 +206,7 @@ export const ProjectsPagePresentational = ({
                         journal: "none",
                         asoc: "none",
                         gif: "none",
-                        heroes: "none",
+                        fitness: "none",
                         am: "none",
                         ober: "tech",
                         eJs: "none",
@@ -236,7 +236,7 @@ export const ProjectsPagePresentational = ({
                         journal: "none",
                         asoc: "none",
                         gif: "none",
-                        heroes: "none",
+                        fitness: "none",
                         am: "none",
                         ober: "repo",
                         eJs: "none",
@@ -297,7 +297,7 @@ export const ProjectsPagePresentational = ({
                           journal: "none",
                           asoc: "none",
                           gif: "none",
-                          heroes: "none",
+                          fitness: "none",
                           am: "none",
                           ober: "none",
                           eJs: "none",
@@ -378,7 +378,7 @@ export const ProjectsPagePresentational = ({
                             journal: "none",
                             asoc: "none",
                             gif: "none",
-                            heroes: "none",
+                            fitness: "none",
                             am: "none",
                             ober: "none",
                             eJs: "none",
@@ -518,7 +518,7 @@ export const ProjectsPagePresentational = ({
                         journal: "none",
                         asoc: "tech",
                         gif: "none",
-                        heroes: "none",
+                        fitness: "none",
                         am: "none",
                         ober: "none",
                         eJs: "none",
@@ -600,7 +600,7 @@ export const ProjectsPagePresentational = ({
                           journal: "none",
                           asoc: "none",
                           gif: "none",
-                          heroes: "none",
+                          fitness: "none",
                           am: "none",
                           ober: "none",
                           eJs: "none",
@@ -719,7 +719,7 @@ export const ProjectsPagePresentational = ({
                         journal: "none",
                         asoc: "none",
                         gif: "none",
-                        heroes: "none",
+                        fitness: "none",
                         am: "none",
                         ober: "none",
                         eJs: "tech",
@@ -801,7 +801,7 @@ export const ProjectsPagePresentational = ({
                           journal: "none",
                           asoc: "none",
                           gif: "none",
-                          heroes: "none",
+                          fitness: "none",
                           am: "none",
                           ober: "none",
                           eJs: "none",
@@ -919,7 +919,7 @@ export const ProjectsPagePresentational = ({
                         journal: "none",
                         asoc: "none",
                         gif: "tech",
-                        heroes: "none",
+                        fitness: "none",
                         am: "none",
                         ober: "none",
                         eJs: "none",
@@ -1001,7 +1001,7 @@ export const ProjectsPagePresentational = ({
                           journal: "none",
                           asoc: "none",
                           gif: "none",
-                          heroes: "none",
+                          fitness: "none",
                           am: "none",
                           ober: "none",
                           eJs: "none",
@@ -1109,7 +1109,7 @@ export const ProjectsPagePresentational = ({
                         journal: "none",
                         asoc: "none",
                         gif: "none",
-                        heroes: "none",
+                        fitness: "none",
                         am: "tech",
                         ober: "none",
                         eJs: "none",
@@ -1191,7 +1191,7 @@ export const ProjectsPagePresentational = ({
                           journal: "none",
                           asoc: "none",
                           gif: "none",
-                          heroes: "none",
+                          fitness: "none",
                           am: "none",
                           ober: "none",
                           eJs: "none",
@@ -1299,7 +1299,7 @@ export const ProjectsPagePresentational = ({
                         journal: "none",
                         asoc: "none",
                         gif: "none",
-                        heroes: "none",
+                        fitness: "none",
                         am: "none",
                         ober: "none",
                         eJs: "none",
@@ -1329,7 +1329,7 @@ export const ProjectsPagePresentational = ({
                         journal: "none",
                         asoc: "none",
                         gif: "none",
-                        heroes: "none",
+                        fitness: "none",
                         am: "none",
                         ober: "none",
                         eJs: "none",
@@ -1390,7 +1390,7 @@ export const ProjectsPagePresentational = ({
                           journal: "none",
                           asoc: "none",
                           gif: "none",
-                          heroes: "none",
+                          fitness: "none",
                           am: "none",
                           ober: "none",
                           eJs: "none",
@@ -1480,7 +1480,7 @@ export const ProjectsPagePresentational = ({
                             journal: "none",
                             asoc: "none",
                             gif: "none",
-                            heroes: "none",
+                            fitness: "none",
                             am: "none",
                             ober: "none",
                             eJs: "none",
@@ -1624,7 +1624,7 @@ export const ProjectsPagePresentational = ({
                         journal: "tech",
                         asoc: "none",
                         gif: "none",
-                        heroes: "none",
+                        fitness: "none",
                         am: "none",
                         ober: "none",
                         eJs: "none",
@@ -1706,7 +1706,7 @@ export const ProjectsPagePresentational = ({
                           journal: "none",
                           asoc: "none",
                           gif: "none",
-                          heroes: "none",
+                          fitness: "none",
                           am: "none",
                           ober: "none",
                           eJs: "none",
@@ -1771,9 +1771,9 @@ export const ProjectsPagePresentational = ({
             </Box>
             <Box
               sx={{
-                gridArea: "heroes",
+                gridArea: "fitness",
                 background:
-                  "url(https://res.cloudinary.com/santiago-arteche/image/upload/v1708325714/HeroesApp_-_Google_Chrome_19_2_2_3_vkuy6g.webp)",
+                  "url(https://res.cloudinary.com/ditn1bem1/image/upload/v1766020778/17a128f7-c7ed-4a85-8bc7-c11e73a5d8ef.png)",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: {
                   xs: "cover",
@@ -1787,7 +1787,7 @@ export const ProjectsPagePresentational = ({
                 ":hover": {
                   background: "#161c908a",
                   transition: "1s",
-                  ".heroes": {
+                  ".fitness": {
                     display: "flex",
                     flexDirection: "column",
                     height: "100%",
@@ -1806,7 +1806,7 @@ export const ProjectsPagePresentational = ({
                   textAlign: "center",
                   gap: 2,
                 }}
-                className="heroes"
+                className="fitness"
               >
                 <Box
                   sx={{
@@ -1828,14 +1828,14 @@ export const ProjectsPagePresentational = ({
                         journal: "none",
                         asoc: "none",
                         gif: "none",
-                        heroes: "tech",
+                        fitness: "tech",
                         am: "none",
                         ober: "none",
                         eJs: "none",
                       })
                     }
                     sx={{
-                      display: heroes != "none" ? "none" : "flex",
+                      display: fitness != "none" ? "none" : "flex",
                       color: "white",
                       textDecoration: "none",
                       justifyContent: "center",
@@ -1853,10 +1853,10 @@ export const ProjectsPagePresentational = ({
                   </Box>
                   <Box
                     component="a"
-                    href="https://github.com/SantiagoArteche/heroes-app"
+                    href="https://github.com/SantiagoArteche/fitness-del-sur"
                     target="blink"
                     sx={{
-                      display: heroes != "none" ? "none" : "flex",
+                      display: fitness != "none" ? "none" : "flex",
                       color: "white",
                       textDecoration: "none",
                       justifyContent: "center",
@@ -1874,10 +1874,10 @@ export const ProjectsPagePresentational = ({
                   </Box>
                   <Box
                     component="a"
-                    href="https://heroes-app-art.vercel.app"
+                    href="https://fitness-del-sur.vercel.app/create-user"
                     target="blink"
                     sx={{
-                      display: heroes != "none" ? "none" : "flex",
+                      display: fitness != "none" ? "none" : "flex",
                       color: "white",
                       textDecoration: "none",
                       justifyContent: "center",
@@ -1892,7 +1892,7 @@ export const ProjectsPagePresentational = ({
                     <ArrowOutward sx={{ fontSize: 37 }} />
                   </Box>
                 </Box>
-                {heroes === "tech" && (
+                {fitness === "tech" && (
                   <>
                     <ArrowBack
                       sx={{
@@ -1910,7 +1910,7 @@ export const ProjectsPagePresentational = ({
                           journal: "none",
                           asoc: "none",
                           gif: "none",
-                          heroes: "none",
+                          fitness: "none",
                           am: "none",
                           ober: "none",
                           eJs: "none",
@@ -1929,7 +1929,6 @@ export const ProjectsPagePresentational = ({
                         sx={{
                           fontSize: {
                             xs: "1.5rem",
-
                             lg: "1.8rem",
                           },
                           display: "flex",
@@ -1941,17 +1940,45 @@ export const ProjectsPagePresentational = ({
                       >
                         <Box
                           sx={{
+                            fontSize: {
+                              xs: "1.5rem",
+
+                              lg: "1.8rem",
+                            },
                             display: "flex",
-                            flexDirection: "column",
+                            flexDirection: "row",
                             justifyContent: "center",
                             alignItems: "center",
-                            gap: 3,
+                            gap: 5,
                           }}
                         >
-                          <Box>React Js</Box>
-                          <Box>MaterialUI</Box>
-                          <Box sx={{ width: { xs: 150, sm: "100%" } }}>
-                            React Router Dom
+                          <Box
+                            sx={{
+                              display: "flex",
+                              flexDirection: "column",
+                              justifyContent: "center",
+                              alignItems: "center",
+                              gap: 3,
+                            }}
+                          >
+                            <Box>TypeScript</Box>
+                            <Box>React Js</Box>
+                            <Box sx={{ width: { xs: 150, sm: "100%" } }}>
+                              Tailwind
+                            </Box>
+                          </Box>
+                          <Box
+                            sx={{
+                              display: "flex",
+                              flexDirection: "column",
+                              justifyContent: "center",
+                              alignItems: "center",
+                              gap: 3,
+                            }}
+                          >
+                            <Box>Node Js</Box>
+                            <Box>Express</Box>
+                            <Box>MongoDB</Box>
                           </Box>
                         </Box>
                       </Box>

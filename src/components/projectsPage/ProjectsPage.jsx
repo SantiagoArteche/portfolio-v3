@@ -10,14 +10,14 @@ export const ProjectsPage = () => {
     language === "ES" ? "Portafolio - Proyectos" : "Portfolio - Projects";
 
   const [
-    { calendar, journal, asoc, gif, heroes, am, ober, eJs },
+    { calendar, journal, asoc, gif, fitness, am, ober, eJs },
     setContentView,
   ] = useState({
     calendar: "none",
     journal: "none",
     asoc: "none",
     gif: "none",
-    heroes: "none",
+    fitness: "none",
     am: "none",
     ober: "none",
     eJs: "none",
@@ -41,7 +41,7 @@ export const ProjectsPage = () => {
       journal={journal}
       asoc={asoc}
       gif={gif}
-      heroes={heroes}
+      fitness={fitness}
       am={am}
       ober={ober}
       eJs={eJs}
